@@ -1,0 +1,64 @@
+{
+    "aboutTitle": "ABOUT BETTY",
+    "aboutDetails": "I am Betty. I am here to help you with all your questions regarding Banking. Following are few of the ways I can help",
+    "sections": [
+                 {
+                 "messages": [
+                              "Show my BankAmeriDeals",
+                              "Redeem my credit card rewards",
+                              "View my credit card rewards",
+                              "How do I join the Preferred Rewards Program?",
+                              "View my Preferred Rewards benefits",
+                              "What is Preferred Rewards?"
+                              ],
+                 "header": "REWARDS"
+                 },
+                 {
+                 "messages": [
+                              "What's my FICO Score?",
+                              "Did my credit score change since last month?",
+                              "What's an average FICO score?",
+                              "View my FICO Score history",
+                              "Learn more about FICO Scores",
+                              "What was my credit score last month?",
+                              "Why did my credit score change?"
+                              ],
+                 "header": "FICO SCORE"
+                 },
+                 {
+                 "messages": [
+                              "Activate my card",
+                              "Unlock my debit card",
+                              "Lock my debit card",
+                              "Report my card lost or stolen",
+                              "What's my CVV code?",
+                              "I need a new card"
+                              ],
+                 "header": "CREDIT CARD AND DEBIT CARD"
+                 },
+                 {
+                 "messages": [
+                              "Add a new bill to pay",
+                              "What is a Pay To account?",
+                              "What bills will be paid today?",
+                              "What bills did I pay this month",
+                              "Show me my bills",
+                              "Do I have any past due bills?",
+                              "Make a payment",
+                              "Pay a bill",
+                              "Cancel a bill payment",
+                              "What bills are set to auto pay?",
+                              "View all my bills and payments",
+                              "Do I have any bills due soon?"
+                              ],
+                 "header": "BILLS"
+                 },
+                 {
+                 "messages": [
+                              "What's the interest rate on my vehicle loan?",
+                              "Open or apply for a new account"
+                              ],
+                 "header": "LOAN"
+                 }
+                 ]
+}

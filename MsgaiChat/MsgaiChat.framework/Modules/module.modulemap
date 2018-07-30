@@ -1,0 +1,11 @@
+framework module MsgaiChat {
+  umbrella header "MsgaiChat.h"
+
+  export *
+  module * { export * }
+}
+
+module MsgaiChat.Swift {
+    header "MsgaiChat-Swift.h"
+    requires objc
+}
