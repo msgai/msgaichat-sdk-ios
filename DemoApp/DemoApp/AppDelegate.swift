@@ -21,7 +21,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         let settings = MCSettings.defaultSettings()
         settings.brandName = "#BrandName"
         settings.brandLogo = UIImage(named:"#BrandLogo")
-        MsgaiChat.with(botKey:"#MSGAIAppID", secretKey: "#SecretKey", settings: settings, launchOptions: launchOptions)
+        MsgaiChat.with(botKey:"#MSGAIBotKey", secretKey: "#SecretKey", settings: settings, launchOptions: launchOptions)
         
         return true
     }

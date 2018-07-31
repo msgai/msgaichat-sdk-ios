@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import MsgaiChat
 
 class ViewController: UIViewController, UITextFieldDelegate{
     

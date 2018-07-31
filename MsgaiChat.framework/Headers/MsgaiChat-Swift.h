@@ -303,6 +303,7 @@ SWIFT_CLASS("_TtC9MsgaiChat9MsgaiChat")
 + (void)finishChat;
 + (void)userPostedMessageWithCallBack:(void (^ _Nullable)(NSArray<NSString *> * _Nonnull))callBack;
 + (void)botPostedMessageWithCallBack:(void (^ _Nullable)(NSArray<NSString *> * _Nonnull))callBack;
++ (void)clearChatHistory;
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_DEPRECATED_MSG("-init is unavailable");
 @end
