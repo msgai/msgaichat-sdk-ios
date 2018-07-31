@@ -1,8 +1,8 @@
 //
 //  AppDelegate.swift
-//  MsgaiChatSample
+//  DemoApp
 //
-//  Created by Jeeva on 6/13/18.
+//  Created by Jeeva on 7/31/18.
 //  Copyright © 2018 MSGAI. All rights reserved.
 //
 
@@ -22,7 +22,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         settings.brandName = "#BrandName"
         settings.brandLogo = UIImage(named:"#BrandLogo")
         MsgaiChat.with(botKey:"#MSGAIAppID", secretKey: "#SecretKey", settings: settings, launchOptions: launchOptions)
-
+        
         return true
     }
 
@@ -48,10 +48,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
     }
 
-    func application(_ application: UIApplication, supportedInterfaceOrientationsFor window: UIWindow?) -> UIInterfaceOrientationMask {
-        
-        // Only allow portrait (standard behaviour)
-        return .all;
-    }
+
 }
 

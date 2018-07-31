@@ -12,8 +12,8 @@ Pod::Spec.new do |s|
   s.source   = {
 :git => 'https://github.com/msgai/msgaichat-sdk-ios.git', :tag => '0.0.1'
     }
-  s.vendored_frameworks   = "MsgaiChat/MsgaiChat.framework"
-  s.module_map = "MsgaiChat/MsgaiChat.framework/Modules/module.modulemap"
+  s.vendored_frameworks   = "MsgaiChat.framework"
+  s.module_map = "MsgaiChat.framework/Modules/module.modulemap"
   s.requires_arc = true
   s.xcconfig            = { 'FRAMEWORK_SEARCH_PATHS' => '$(PODS_ROOT)/MsgaiChat',
     'SWIFT_INCLUDE_PATHS' =>

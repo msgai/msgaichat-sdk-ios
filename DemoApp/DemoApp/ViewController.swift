@@ -1,16 +1,15 @@
 //
 //  ViewController.swift
-//  MsgaiChatSample
+//  DemoApp
 //
-//  Created by Jeeva on 6/13/18.
+//  Created by Jeeva on 7/31/18.
 //  Copyright © 2018 MSGAI. All rights reserved.
 //
 
 import UIKit
-import MsgaiChat
 
 class ViewController: UIViewController, UITextFieldDelegate{
-
+    
     @IBOutlet var textFieldFirstName: UITextField!
     @IBOutlet var textFieldLastName: UITextField!
     override func viewDidLoad() {
@@ -20,12 +19,12 @@ class ViewController: UIViewController, UITextFieldDelegate{
         textFieldFirstName.text = UserDefaults.standard.string(forKey: "firstName")
         textFieldLastName.text = UserDefaults.standard.string(forKey: "lastName")
     }
-
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-
+    
     @IBAction func startChat(_ sender: Any) {
         
         if (textFieldFirstName.text?.isEmpty)! {
@@ -45,7 +44,7 @@ class ViewController: UIViewController, UITextFieldDelegate{
             self.present(alert, animated: true, completion: nil)
         }
         else{
-         
+            
             UserDefaults.standard.set(textFieldFirstName.text, forKey: "firstName")
             UserDefaults.standard.set(textFieldLastName.text, forKey: "lastName")
             
@@ -56,7 +55,7 @@ class ViewController: UIViewController, UITextFieldDelegate{
             user.location = "New York"
             user.properties = ["key1":"value1",
                                "key2":"value2"]
-            MsgaiChat.setUser(user)            
+            MsgaiChat.setUser(user)
             MsgaiChat.startChat()
         }
     }
@@ -66,4 +65,3 @@ class ViewController: UIViewController, UITextFieldDelegate{
         return true
     }
 }
-
