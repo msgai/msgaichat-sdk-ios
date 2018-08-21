@@ -228,6 +228,77 @@ SWIFT_CLASS("_TtC9MsgaiChat21ImageViewerController")
 
 
 
+typedef SWIFT_ENUM(NSInteger, MCActionType) {
+  MCActionTypePostBack = 0,
+  MCActionTypeWeb = 1,
+  MCActionTypeUnknown = 2,
+};
+
+enum MCMessageType : NSInteger;
+@class MCJSON;
+
+SWIFT_CLASS("_TtC9MsgaiChat9MCMessage")
+@interface MCMessage : NSObject
+@property (nonatomic, copy) NSDate * _Nullable date;
+@property (nonatomic) BOOL isReceivedMessage;
+@property (nonatomic, copy) NSString * _Nullable messageText;
+@property (nonatomic) enum MCMessageType messageType;
+@property (nonatomic, copy) NSArray<MCJSON *> * _Nullable quickReplies;
+@property (nonatomic, copy) NSArray<MCJSON *> * _Nullable arrayOfButtons;
+@property (nonatomic, strong) MCJSON * _Nullable webLink;
+@property (nonatomic, strong) MCJSON * _Nullable json;
+- (nonnull instancetype)init SWIFT_UNAVAILABLE;
++ (nonnull instancetype)new SWIFT_DEPRECATED_MSG("-init is unavailable");
+@end
+
+enum MCMessageStylePosition : NSInteger;
+enum MCMessageStyleAlignment : NSInteger;
+enum MCMessageStyleFont : NSInteger;
+
+SWIFT_CLASS("_TtC9MsgaiChat14MCMessageStyle")
+@interface MCMessageStyle : NSObject
+@property (nonatomic) enum MCMessageStylePosition position;
+@property (nonatomic) enum MCMessageStyleAlignment alignment;
+@property (nonatomic) BOOL transient;
+@property (nonatomic) enum MCMessageStyleFont font;
+- (nonnull instancetype)init SWIFT_UNAVAILABLE;
++ (nonnull instancetype)new SWIFT_DEPRECATED_MSG("-init is unavailable");
+@end
+
+typedef SWIFT_ENUM(NSInteger, MCMessageStyleAlignment) {
+  MCMessageStyleAlignmentHorizontal = 0,
+  MCMessageStyleAlignmentVertical = 1,
+  MCMessageStyleAlignmentUnknown = 2,
+};
+
+typedef SWIFT_ENUM(NSInteger, MCMessageStyleFont) {
+  MCMessageStyleFontHelptext = 0,
+  MCMessageStyleFontSmalltextParagraph = 1,
+  MCMessageStyleFontUnknown = 2,
+};
+
+typedef SWIFT_ENUM(NSInteger, MCMessageStylePosition) {
+  MCMessageStylePositionTop = 0,
+  MCMessageStylePositionBottom = 1,
+  MCMessageStylePositionTopLeft = 2,
+  MCMessageStylePositionBottomRight = 3,
+  MCMessageStylePositionUnknown = 4,
+};
+
+typedef SWIFT_ENUM(NSInteger, MCMessageType) {
+  MCMessageTypeText = 0,
+  MCMessageTypeWelcome = 1,
+  MCMessageTypePostBack = 2,
+  MCMessageTypeTextParagraph = 3,
+  MCMessageTypeCard = 4,
+  MCMessageTypeWeblink = 5,
+  MCMessageTypeGroupList = 6,
+  MCMessageTypeCarousel = 7,
+  MCMessageTypeImage = 8,
+  MCMessageTypeVideo = 9,
+  MCMessageTypeUnknown = 10,
+};
+
 @class UIColor;
 @class UIFont;
 @class NSAttributedString;
@@ -306,6 +377,10 @@ SWIFT_CLASS("_TtC9MsgaiChat9MsgaiChat")
 + (void)clearChatHistory;
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_DEPRECATED_MSG("-init is unavailable");
++ (void)getResponseForRequestId:(NSString * _Nonnull)requestId success:(void (^ _Nullable)(NSArray<MCMessage *> * _Nonnull))success failure:(void (^ _Nullable)(NSError * _Nullable))failure;
++ (void)postMessageWithText:(NSString * _Nonnull)text success:(void (^ _Nullable)(NSString * _Nonnull))success failure:(void (^ _Nullable)(NSError * _Nullable))failure;
++ (void)postMessageWithPayload:(NSString * _Nonnull)payload label:(NSString * _Nonnull)label success:(void (^ _Nullable)(NSString * _Nonnull))success failure:(void (^ _Nullable)(NSError * _Nullable))failure;
++ (NSString * _Nonnull)userGeneratedData SWIFT_WARN_UNUSED_RESULT;
 @end
 
 

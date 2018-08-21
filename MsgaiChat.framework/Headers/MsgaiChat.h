@@ -15,3 +15,4 @@ FOUNDATION_EXPORT double MsgaiChatVersionNumber;
 FOUNDATION_EXPORT const unsigned char MsgaiChatVersionString[];
 
 // In this header, you should import all the public headers of your framework using statements like #import <MsgaiChat/PublicHeader.h>
+#import <MsgaiChat/MCJSON.h>
