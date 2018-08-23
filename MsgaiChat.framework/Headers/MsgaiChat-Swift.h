@@ -372,15 +372,15 @@ SWIFT_CLASS("_TtC9MsgaiChat9MsgaiChat")
 + (void)startChatWithText:(NSString * _Nonnull)text;
 + (void)postTextMessageToUser:(NSArray<NSString *> * _Nonnull)messages;
 + (void)finishChat;
-+ (void)userPostedMessageWithCallBack:(void (^ _Nullable)(NSArray<NSString *> * _Nonnull))callBack;
-+ (void)botPostedMessageWithCallBack:(void (^ _Nullable)(NSArray<NSString *> * _Nonnull))callBack;
++ (void)userPostedMessageWithCallback:(void (^ _Nullable)(NSArray<NSString *> * _Nonnull))callback;
++ (void)botPostedMessageWithCallback:(void (^ _Nullable)(NSArray<NSString *> * _Nonnull))callback;
 + (void)clearChatHistory;
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_DEPRECATED_MSG("-init is unavailable");
 + (void)getResponseForRequestId:(NSString * _Nonnull)requestId success:(void (^ _Nullable)(NSArray<MCMessage *> * _Nonnull))success failure:(void (^ _Nullable)(NSError * _Nullable))failure;
 + (void)postMessageWithText:(NSString * _Nonnull)text success:(void (^ _Nullable)(NSString * _Nonnull))success failure:(void (^ _Nullable)(NSError * _Nullable))failure;
 + (void)postMessageWithPayload:(NSString * _Nonnull)payload label:(NSString * _Nonnull)label success:(void (^ _Nullable)(NSString * _Nonnull))success failure:(void (^ _Nullable)(NSError * _Nullable))failure;
-+ (NSString * _Nonnull)userGeneratedData SWIFT_WARN_UNUSED_RESULT;
++ (void)userDataProfileWithSuccess:(SWIFT_NOESCAPE void (^ _Nonnull)(NSString * _Nonnull))success failure:(void (^ _Nullable)(NSError * _Nullable))failure;
 @end
 
 
