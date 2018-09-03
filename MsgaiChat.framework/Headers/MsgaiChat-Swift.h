@@ -328,13 +328,22 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, copy) NSString * _No
 + (NSString * _Nonnull)MCMenuItemGallery SWIFT_WARN_UNUSED_RESULT;
 SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, copy) NSString * _Nonnull MCMenuItemLocation;)
 + (NSString * _Nonnull)MCMenuItemLocation SWIFT_WARN_UNUSED_RESULT;
+/// MsgaiChat SDK supports region setting, default region is USA(“us”). European Union region code is “eu”. Contact MSGAI for getting more details about region codes.
 @property (nonatomic, copy) NSString * _Nonnull region;
+/// senderBubbleColor: this will set sender(bot) bubble’s background color.
 @property (nonatomic, strong) UIColor * _Nonnull senderBubbleColor;
+/// receiverBubbleColor: this will set receiver(user) bubble’s background color.
 @property (nonatomic, strong) UIColor * _Nonnull receiverBubbleColor;
+/// MsgaiChat SDK features a tappable menu icon that allows the user to send various message types. The types displayed in this menu can be customized, or the menu can be hidden altogether.
+/// If you want to control this menu, override the allowedMenuItems array in MCSettings to add the values of your choice.
 @property (nonatomic, copy) NSArray<NSString *> * _Nonnull allowedMenuItems;
+/// Brand logo image will be used as sender icon in chat bubble.
 @property (nonatomic, strong) UIImage * _Nullable brandLogo;
+/// Brand name will be displayed as title of the Chat window.
 @property (nonatomic, copy) NSString * _Nullable brandName;
+/// chatTextFieldPlaceholder: it will be displayed in chat text box when user not entered anything.
 @property (nonatomic, copy) NSString * _Nonnull chatTextFieldPlaceholder;
+/// Chat view status bar style.
 @property (nonatomic) UIStatusBarStyle statusBarStyle;
 + (MCSettings * _Nonnull)defaultSettings SWIFT_WARN_UNUSED_RESULT;
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
@@ -366,20 +375,76 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, copy) NSString * _No
 
 SWIFT_CLASS("_TtC9MsgaiChat9MsgaiChat")
 @interface MsgaiChat : NSObject
+/// Initialize the SDK.
+/// MSGAIBotKey and SecretKey get it from MSGAI Portal.
+/// \param botKey <#botKey description#>
+///
+/// \param secretKey <#secretKey description#>
+///
+/// \param settings <#settings description#>
+///
+/// \param launchOptions <#launchOptions description#>
+///
 + (void)withBotKey:(NSString * _Nonnull)botKey secretKey:(NSString * _Nonnull)secretKey settings:(MCSettings * _Nonnull)settings launchOptions:(NSDictionary<UIApplicationLaunchOptionsKey, id> * _Nullable)launchOptions;
+/// Passing user details to MsgaiChat SDK will provide more user specific service and support.
+/// \param user <#user description#>
+///
 + (void)setUser:(MCUser * _Nonnull)user;
+/// Start MSGAI Chat session, just call startChat method then SDK will take care of the entire flow including design and communications handlings.
 + (void)startChat;
+/// Initiating chat with prefilled message, this text will be send to server while opening the chat window. So that user can skip their first message to bot, like “Hi” message.
+/// \param text <#text description#>
+///
 + (void)startChatWithText:(NSString * _Nonnull)text;
+/// Host app can directly send text message to user behalf of bot.
+/// \param messages <#messages description#>
+///
 + (void)postTextMessageToUser:(NSArray<NSString *> * _Nonnull)messages;
+/// Stop MSGAI Chat session, call finishChat.
 + (void)finishChat;
+/// Host app can listen to user’s messages by setting call back closure. Set nil to stop the listener MsgaiChat.userPostedMessage(callback: nil).
+/// \param callback <#callback description#>
+///
 + (void)userPostedMessageWithCallback:(void (^ _Nullable)(NSArray<NSString *> * _Nonnull))callback;
+/// Host app can listen to bot’s messages by setting call back closure. Set nil to stop the listener MsgaiChat.botPostedMessage(callback: nil).
+/// \param callback <#callback description#>
+///
 + (void)botPostedMessageWithCallback:(void (^ _Nullable)(NSArray<NSString *> * _Nonnull))callback;
+/// Clear in memory chat history messages.
 + (void)clearChatHistory;
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_DEPRECATED_MSG("-init is unavailable");
+/// Pass #requestId which you get if from bot response by send message to bot. Success block will be called with array of messages, messages will be instances of MCMessage class, you can use and display in to user by using your own UI controls.
+/// \param requestId <#requestId description#>
+///
+/// \param success <#success description#>
+///
+/// \param failure <#failure description#>
+///
 + (void)getResponseForRequestId:(NSString * _Nonnull)requestId success:(void (^ _Nullable)(NSArray<MCMessage *> * _Nonnull))success failure:(void (^ _Nullable)(NSError * _Nullable))failure;
+/// Send plain text message, request id will be received on successful completion of the send process. You need to use this request id to get bot response for your message.
+/// \param text <#text description#>
+///
+/// \param success <#success description#>
+///
+/// \param failure <#failure description#>
+///
 + (void)postMessageWithText:(NSString * _Nonnull)text success:(void (^ _Nullable)(NSString * _Nonnull))success failure:(void (^ _Nullable)(NSError * _Nullable))failure;
+/// Send payload text and respective label, request id will be received on successful completion of the send process. You need to use this request id to get bot response for your message.
+/// \param payload <#payload description#>
+///
+/// \param label <#label description#>
+///
+/// \param success <#success description#>
+///
+/// \param failure <#failure description#>
+///
 + (void)postMessageWithPayload:(NSString * _Nonnull)payload label:(NSString * _Nonnull)label success:(void (^ _Nullable)(NSString * _Nonnull))success failure:(void (^ _Nullable)(NSError * _Nullable))failure;
+/// While user interact with bot, user details have been collected as user generated data. You can access these collected data by calling userDataProfile() method.
+/// \param success <#success description#>
+///
+/// \param failure <#failure description#>
+///
 + (void)userDataProfileWithSuccess:(SWIFT_NOESCAPE void (^ _Nonnull)(NSString * _Nonnull))success failure:(void (^ _Nullable)(NSError * _Nullable))failure;
 @end
 
