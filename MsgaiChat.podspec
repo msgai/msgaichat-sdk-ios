@@ -15,7 +15,7 @@ Pod::Spec.new do |s|
   s.vendored_frameworks   = "MsgaiChat.framework"
   s.module_map = "MsgaiChat.framework/Modules/module.modulemap"
   s.requires_arc = true
-  s.dependency 'Alamofire'
+  s.dependency 'Firebase/Messaging'
   s.preserve_paths = 'Sources/CCommonCrypto/*'
   s.xcconfig = { 'FRAMEWORK_SEARCH_PATHS' => '$(PODS_ROOT)/MsgaiChat',
     'HEADER_SEARCH_PATHS' => '$(SDKROOT)/usr/include/libxml2',
