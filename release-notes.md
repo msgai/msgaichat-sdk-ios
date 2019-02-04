@@ -1,9 +1,15 @@
 # MsgaiChat SDK iOS Release Notes
 
-## 0.0.1
-2018-08-24
+## 1.0
+2019-02-04
 
-* Stable version.
+* List Message type.
+* Location sharing.
+* SDK configurations can be modified by using MsgaiChat-Config.plist file.
+* Conversation messages can be displayed by Bottom Up approach.
+* Firebase cloud messaging integrated for Push Notification and Instant Messaging.
+* Added multiline message support.
+* Persistent Menu.
 * Added support to sent/receive Text messages.
 * Added support to receive Image/Video messages.
 * Added message Quick reply support.
