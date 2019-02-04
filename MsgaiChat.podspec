@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "MsgaiChat"
-  s.version      = "0.0.1"
+  s.version      = "1.0"
   s.summary      = "MsgaiChat iOS SDK for MSGAI Platform."
   s.description  = "MsgaiChat iOS SDK for MSGAI Platform. Chat bot sdk for mobile platform."
   s.homepage     = "http://msg.ai"
