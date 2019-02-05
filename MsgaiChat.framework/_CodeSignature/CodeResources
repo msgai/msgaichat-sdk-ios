@@ -6,11 +6,19 @@
 	<dict>
 		<key>Assets.car</key>
 		<data>
-		ZiNHEJIvpb/NKlQQy5XqYo6ZYAE=
+		/fFz14TQDUe0XKa9o/iJ2A60Amk=
 		</data>
 		<key>GoogleService-Info.plist</key>
 		<data>
-		HumnClX8YZwczG1zp24JImpfEWg=
+		qC2SwrkeMc2dJm1ZIChjqzJYB5M=
+		</data>
+		<key>Headers/DelegateTransporter.h</key>
+		<data>
+		QrAau6R++UYdH/1mCZA2XMcYCLI=
+		</data>
+		<key>Headers/ExceptionHandler.h</key>
+		<data>
+		0O0j9bL1lXboROZ2OAdleywOLTk=
 		</data>
 		<key>Headers/MCJSON.h</key>
 		<data>
@@ -18,15 +26,15 @@
 		</data>
 		<key>Headers/MsgaiChat-Swift.h</key>
 		<data>
-		Q96q8RNI+yF49Xnu6g+t9/eF8Zc=
+		3moYedIZ/pqGgUPRpwl5lrw7El4=
 		</data>
 		<key>Headers/MsgaiChat.h</key>
 		<data>
-		FVuwX5CheJHW5av5PrqvVzWuGJE=
+		G/Ac75gKuv1+H0hm7cgXCszC6h8=
 		</data>
 		<key>ImageViewerController.nib</key>
 		<data>
-		vNV2wQGPgk3MK4Oi/bbiPvr39iE=
+		wFAOnnutbBRFCOuCa+RHz6cP8HI=
 		</data>
 		<key>Info.plist</key>
 		<data>
@@ -34,291 +42,291 @@
 		</data>
 		<key>MCCarouselView.nib</key>
 		<data>
-		Y8zp8K8gHMo/TSeD9ZHXdZDweFU=
+		E4QlSK8GPbencriNIeF7SdiAI/E=
 		</data>
 		<key>MCCarouselViewCell.nib/objects-11.0+.nib</key>
 		<data>
-		/sPwynKD40izPlJ/VhNRGR7YKLw=
+		wy3M+KsF9z8NM+1T0U3kAXSw4BU=
 		</data>
 		<key>MCCarouselViewCell.nib/runtime.nib</key>
 		<data>
-		YDDkdV1hBbarQHoV3wHLAOVRKnw=
+		ccrpWY0tO3C7E/g92ACo+DtzKVo=
 		</data>
 		<key>MCCarouselViewDetailImageCell.nib</key>
 		<data>
-		hr0klw7auR+zkI4krAuR4fNvHvE=
+		3y0xNkkHPRYUKJC30eOsLQS79Pk=
 		</data>
 		<key>MCCarouselViewDetailOptionCell.nib</key>
 		<data>
-		fDtQt5frVJ0R4zvhQ7jJ20gLQ6Q=
+		QVzUi0NdM99u0XS4hWzWOKIzjIM=
 		</data>
 		<key>MCCarouselViewDetailTitleCell.nib</key>
 		<data>
-		tsqh82PNlMDeTgTy+YW3R6CS/A0=
+		eh+UjjKYC8mHoTm6u/DJF8oFU5o=
 		</data>
 		<key>MCChat.storyboardc/DhY-sQ-zlI-view-gF1-9F-Xcl.nib/objects-11.0+.nib</key>
 		<data>
-		F5KH375vVgwEjK1XtO6XpBDdcM8=
+		9m6ukmZij2TRA6xLBUXaphGaEW8=
 		</data>
 		<key>MCChat.storyboardc/DhY-sQ-zlI-view-gF1-9F-Xcl.nib/runtime.nib</key>
 		<data>
-		4jg27VVdfcscnfFmB1tFbDPcKJw=
+		5W48wxoAFl+a8wJiERl1o3XJ7Qc=
 		</data>
 		<key>MCChat.storyboardc/Info.plist</key>
 		<data>
-		OtYkLYAV3zKguhIVLxCs+kt8hos=
+		pOXLXMwOwBB0tqO1OWSVdIqiZrk=
 		</data>
 		<key>MCChat.storyboardc/MCChat.nib/objects-11.0+.nib</key>
 		<data>
-		U2BDXIpMKbg/tV3jCA53hJcLMTg=
+		+vRWX+ccJTPc40WHUV/cv+rzgdk=
 		</data>
 		<key>MCChat.storyboardc/MCChat.nib/runtime.nib</key>
 		<data>
-		IZgAJOBchTb91Seumj24XureYMA=
+		g1wp5ivh6ZCyl3ui1XN552ep9hI=
 		</data>
 		<key>MCChat.storyboardc/MCChatNav.nib/objects-11.0+.nib</key>
 		<data>
-		Yex2c9Lkx0FDx/lpm3PnSltX7Ds=
+		00jTJusIi9HxL7zVCpLJ1N9hCp8=
 		</data>
 		<key>MCChat.storyboardc/MCChatNav.nib/runtime.nib</key>
 		<data>
-		eGL+tvX5wu5drALt3fMIFSdw7Ms=
+		wyNBfU28zS3SDKTIPFHqDofOwpc=
 		</data>
 		<key>MCChat.storyboardc/MCFAQViewController.nib/objects-11.0+.nib</key>
 		<data>
-		eSy9CPszko4ZfvAPEnOcdR1U050=
+		T+FwyIaTzlqp06mJ6lC/KR8wVBY=
 		</data>
 		<key>MCChat.storyboardc/MCFAQViewController.nib/runtime.nib</key>
 		<data>
-		hnvbJKX57sTVhE5YfiQK8JVHwSk=
+		mxGo+C/t0Itv8MJsls6JddRl/yQ=
 		</data>
 		<key>MCChat.storyboardc/MCLocationDetailsVC.nib/objects-11.0+.nib</key>
 		<data>
-		4MiuTks9A3kiN15bp5xfZOJQX/4=
+		nxayeucB1WS+u+p2woqZaO2Ouew=
 		</data>
 		<key>MCChat.storyboardc/MCLocationDetailsVC.nib/runtime.nib</key>
 		<data>
-		71hwxf8B4jsGxq8BUnFlsdqpVSs=
+		r2TvwNbpY7dLwrdIH1lVkkqPw1A=
 		</data>
 		<key>MCChat.storyboardc/MCMenuViewController.nib/objects-11.0+.nib</key>
 		<data>
-		1pchGG6VmLUwgEVX+yKjYV6FILk=
+		7YyL5GATjeiuwDbyeiQsOywW9Hs=
 		</data>
 		<key>MCChat.storyboardc/MCMenuViewController.nib/runtime.nib</key>
 		<data>
-		S2bvj5YsR1Y6g0ms2jXqupJC0Jw=
+		Q+Ao/GqlmdCoRvBMdJaJBTYQqq0=
 		</data>
 		<key>MCChat.storyboardc/MCWebviewController.nib/objects-11.0+.nib</key>
 		<data>
-		KYfmBiPP5iHw/6bCK6WcCPtI0JQ=
+		Py7/OjQBiqOBe8rX1HyLWwDcgBQ=
 		</data>
 		<key>MCChat.storyboardc/MCWebviewController.nib/runtime.nib</key>
 		<data>
-		sbuAjCPgDf+j0o9fAc1eeVj+YUo=
+		nPeYYqZfJWX0tanzshMP0DPFTaM=
 		</data>
 		<key>MCChat.storyboardc/V2B-1B-L4s-view-74n-A1-CTN.nib/objects-11.0+.nib</key>
 		<data>
-		aPHJ3aPhZCYLn4CqTRHVm3Jbsrs=
+		RC7OG8J4NK5VQxzxk7c9AWze5VA=
 		</data>
 		<key>MCChat.storyboardc/V2B-1B-L4s-view-74n-A1-CTN.nib/runtime.nib</key>
 		<data>
-		ULkIb9578tsNDAedz0nO8zGF0TI=
+		gmfLWTAeUNDfVQa4yIuKhyVZqXY=
 		</data>
 		<key>MCChat.storyboardc/c87-ax-RvA-view-hmA-2a-gtw.nib/objects-11.0+.nib</key>
 		<data>
-		cDjvZ17Ya5PeIQOvdxbvcNashVM=
+		gWyuReC998tsezCS7D02qtD5NTE=
 		</data>
 		<key>MCChat.storyboardc/c87-ax-RvA-view-hmA-2a-gtw.nib/runtime.nib</key>
 		<data>
-		1NJA8G/GjVWnTqvsK7PyNFqBsUM=
+		zByoouBGGztUQ8fqS3PfCoE9nf4=
 		</data>
 		<key>MCChat.storyboardc/ps8-L8-lBq-view-ddw-u1-t4D.nib/objects-11.0+.nib</key>
 		<data>
-		iVmtUqaEO/18Y5lN4VdS6nsnbRQ=
+		bZcm8smF+3EX6ecsFnvX4YHCDzQ=
 		</data>
 		<key>MCChat.storyboardc/ps8-L8-lBq-view-ddw-u1-t4D.nib/runtime.nib</key>
 		<data>
-		YQMZhRvQRTJYAXQjAoZupstru0Q=
+		aU3F8DrgHKOETzQyqVTllbfILX8=
 		</data>
 		<key>MCChat.storyboardc/w8n-nQ-KV6-view-xLX-Uu-ryq.nib/objects-11.0+.nib</key>
 		<data>
-		YPlYQoyvfiiibVvjI//Je/jEOOM=
+		fI7mIHguMe/JG0W8WyrRvKOZAz8=
 		</data>
 		<key>MCChat.storyboardc/w8n-nQ-KV6-view-xLX-Uu-ryq.nib/runtime.nib</key>
 		<data>
-		a+Xl2iYzNVBTQ8tSm/FTKDuKFe0=
+		Hq2TtKhxqNnk067VFZN6OXhr+Hs=
 		</data>
 		<key>MCChatBottomCardCell.nib</key>
 		<data>
-		IN+Q07CU8Q++s7J/3H5/hSrhJks=
+		WQFv3TOEVwuoNIDhns1bySj6h5o=
 		</data>
 		<key>MCChatCarouselCell.nib</key>
 		<data>
-		ruXHLlTRFnNxhIkarjGkxHzdoxw=
+		IyWYj03kP+uF+ulEb8jX/QsQiX0=
 		</data>
 		<key>MCChatEmptyCell.nib</key>
 		<data>
-		LTWGiLpwFSX5rTixgWARnIA07wY=
+		SeJjOCsl9HXi879ZQxDF5LxU8yk=
 		</data>
 		<key>MCChatGroupListCell.nib/objects-11.0+.nib</key>
 		<data>
-		aSywCOcXKcT8/2OWuAmglAHDGl8=
+		uTP6f7AbgMVxSR2SjhnzU/sb1io=
 		</data>
 		<key>MCChatGroupListCell.nib/runtime.nib</key>
 		<data>
-		jvZtp6tMNyTFKd0CLrykNU4ke3s=
+		gVrtzRQaHlmceCsbVpaHttYOq+g=
 		</data>
 		<key>MCChatParagraphTextCell.nib</key>
 		<data>
-		WDf6XDk9mwGGTCeFoDrtnbUs53s=
+		n2KQVkLaRmEoRggNDPGLEvXtu/M=
 		</data>
 		<key>MCChatPostbackCollectionViewCell.nib</key>
 		<data>
-		x72T/4VCdQJMcQGGjf7WYKNSPEs=
+		uVwTPHdai80yr8A6oHT/kGdRcY4=
 		</data>
 		<key>MCChatReceiverCell.nib</key>
 		<data>
-		XUZSnH6UGYHdlNvQhNrKkLaVqXY=
+		n9i7cVOqCvkj90yM/9G+3A3uav8=
 		</data>
 		<key>MCChatSenderCell.nib</key>
 		<data>
-		ybI1rVqOEmL8L06uSywQo7n0yRE=
+		xPuE2gBwsAfzeChRQZ7/k456MCM=
 		</data>
 		<key>MCChatSenderCellPostback.nib/objects-11.0+.nib</key>
 		<data>
-		uu/UqWXIc9fYFixY0hbyZAAtIMc=
+		8fG7n65Hmr9SjJeBRCMAixGnJTg=
 		</data>
 		<key>MCChatSenderCellPostback.nib/runtime.nib</key>
 		<data>
-		yig/b6PEsSK01HGJuw1iNGPN6hI=
+		cLm47jvJx/YzKbOoEyBmKaJCqho=
 		</data>
 		<key>MCChatSenderPostbackCardCell.nib</key>
 		<data>
-		lFpdfB+8K1jAU5wJK6R6Jn7RNQE=
+		W7twtJgKxR0ujMfWZs6P9W+l8Nk=
 		</data>
 		<key>MCChatTypingCell.nib</key>
 		<data>
-		4N8Q3+8f6TQn+FopieKdyFYs4SE=
+		3UX27b0l3ecc1x95Kd7xe1R8Bns=
 		</data>
 		<key>MCChatWelcomeCell.nib</key>
 		<data>
-		R2GkEvbVVg0ynAYIYu1coO4lRpw=
+		IQOaVnftoxwEDMGLLckoRRuaNaY=
 		</data>
 		<key>MCFAQIntroCell.nib</key>
 		<data>
-		eYnZWjmFZZPssEk1B8fBbEv1CIM=
+		GcElH5cRjAnzA4D6GTmZYGqRuuU=
 		</data>
 		<key>MCFAQListCell.nib</key>
 		<data>
-		J53D43bCb7qLBsRLVVR7iStxHaw=
+		uDfCdZ9y0XGMbUp2rDt3Pvfzkvk=
 		</data>
 		<key>MCFAQListHeaderView.nib</key>
 		<data>
-		czDoHMVTGE0xJDKHQbC+zHuG0vo=
+		GhSmXUNoPuHmVTX3J+mGuR/a3wE=
 		</data>
 		<key>MCGroupListTableCell.nib</key>
 		<data>
-		EMp+zNpDtQ/RuDfKBy/iYPcC6Ak=
+		1atSPqELWEuz69DhUGqThUsnULc=
 		</data>
 		<key>MCImageCardCell.nib</key>
 		<data>
-		ee68Qm0jlzTkzFY/2dPujpnsDuY=
+		m6ZuhoM2zL7af3kuACxICGPEyxs=
 		</data>
 		<key>MCListTemplateButtonCell.nib</key>
 		<data>
-		py1Nf2h0+HnR+g2wSZGxtlEw0Jg=
+		Zhj/BMrw+/Xkjkj81hKT1n7bLAs=
 		</data>
 		<key>MCListTemplateCell.nib</key>
 		<data>
-		jdCZ75Db9XRXRVDqh7yGsPd281M=
+		0A9ZQuMxN5qNJ8Qa7obQ6Opd/TE=
 		</data>
 		<key>MCListTemplateItemCell.nib/objects-11.0+.nib</key>
 		<data>
-		YULWeF2n+5BT9n1ltmej+XCgYYg=
+		BTyu/jU3CSY11q+kCZ7IbGU6iVI=
 		</data>
 		<key>MCListTemplateItemCell.nib/runtime.nib</key>
 		<data>
-		0TPmpx/EVr7SRFfWKiig9ZuBXqA=
+		XDwQtkMfQsycKbTdyaGsvgKnCOU=
 		</data>
 		<key>MCListTemplateView.nib/objects-11.0+.nib</key>
 		<data>
-		+iDz3rtTZcKgdtiFvpfi9Rt+Ccc=
+		8ukiuTD4OGfvdwHaWRUQtjzlOFc=
 		</data>
 		<key>MCListTemplateView.nib/runtime.nib</key>
 		<data>
-		/dFhzqSITIfCKq0JC1h4g0NXstg=
+		Z80SY8pfaQVUK3bB1qnO83fvPSg=
 		</data>
 		<key>MCLocationCardCell.nib</key>
 		<data>
-		SQiV9cV3fSmic5UlUKzqYHwUd6Q=
+		JoqrpbfgvtoaO0uZbI4Q3ab3cFc=
 		</data>
 		<key>MCPostbackCardView.nib/objects-11.0+.nib</key>
 		<data>
-		gdxEbRjiVW3KugjEArozn7/f7Qc=
+		7sG8CGeez2aeH3LOFmgQvNRMMcA=
 		</data>
 		<key>MCPostbackCardView.nib/runtime.nib</key>
 		<data>
-		7+7r6+e5VIWLnP3SEGeGGtnuyUc=
+		TZ9TS/bvwf4jTM5xqJB9MaBDeB0=
 		</data>
 		<key>MCPostbackCardViewTableCell.nib</key>
 		<data>
-		vGAkGnVag/WAZhTunpSBgmjEMYQ=
+		zzjwnNiCfk00pYsWwd1ehfViL1g=
 		</data>
 		<key>MCPostbackCardViewTableCellRight.nib</key>
 		<data>
-		CZKsjG/JQZVVpqh04xMLVx+4pDM=
+		LjzVl2qHi3ANVixJp6nmNceSRGo=
 		</data>
 		<key>MCPostbackHorizontalView.nib/objects-11.0+.nib</key>
 		<data>
-		1LwJJba4tYFKEb24JQlgmPui0zs=
+		fg9DQNaCggQ667ZMswSnc5fOf2w=
 		</data>
 		<key>MCPostbackHorizontalView.nib/runtime.nib</key>
 		<data>
-		q60xtcpGKY8zW8EFf+6Eyzx4X3U=
+		gf5NWOvfhGs2KWAWLaGjEhA9/kA=
 		</data>
 		<key>MCPostbackTableCell.nib</key>
 		<data>
-		28YNFZ6oHlUBePrwGg/uS3+Cmr8=
+		oEKeh/iR4LxUjn3XqsWu6GK2258=
 		</data>
 		<key>MCPostbackTableCellRight.nib</key>
 		<data>
-		Nj5nfRrEdZXe/HealXb9WqdNiLA=
+		xz8wISRMao+oB7zEMzCraKUO/ak=
 		</data>
 		<key>MCPostbackVerticalView.nib/objects-11.0+.nib</key>
 		<data>
-		PpO5Jj0jDxRq/a/dUqE+4IV5yr0=
+		HRkzSNTvAjmZ7x1MKGX+K+byiJk=
 		</data>
 		<key>MCPostbackVerticalView.nib/runtime.nib</key>
 		<data>
-		lg0uxko41KdmhO/6k0TJ1AISD24=
+		fw/aJa4UphfNudAH4JKcMBh/dJk=
 		</data>
 		<key>MCSendLocationCell.nib</key>
 		<data>
-		0UEd4hK1l51Zux+ZoHuB/HCX6LM=
+		c4A023Z+7N//4KNeCXZGMJBS1cM=
 		</data>
 		<key>MCVideoCardCell.nib</key>
 		<data>
-		VUahcn22jSsYK8Fsz2oSutNsqwk=
+		/tePgrghxCFeBnfIc5BtAW9Xwzg=
 		</data>
 		<key>MenuViewCell.nib</key>
 		<data>
-		FZt8SBIjRbfvSV8ci8gxae6zl9E=
+		LuB6KnqkEmw7UCDW7Gg98dTFT4s=
 		</data>
 		<key>Modules/MsgaiChat.swiftmodule/arm.swiftdoc</key>
 		<data>
-		+MdzdkoVFTSBrqqiHStWxsfDoAs=
+		cpqNziy6bG86R/H9WL6HOY4A6YI=
 		</data>
 		<key>Modules/MsgaiChat.swiftmodule/arm.swiftmodule</key>
 		<data>
-		3MjWCn0hYIEiO2u6ChoqtN42wFY=
+		dW+HuexBjuTDtNoqMa+NmDC+wHQ=
 		</data>
 		<key>Modules/MsgaiChat.swiftmodule/arm64.swiftdoc</key>
 		<data>
-		RDsPl0y3/njzokANAhOJkw6V5S8=
+		6dh1A8BcFgAlYQen9h66u1Jsy/I=
 		</data>
 		<key>Modules/MsgaiChat.swiftmodule/arm64.swiftmodule</key>
 		<data>
-		djCXr0saV28qjrhgO8nP19OLiFU=
+		j3q8FwKKOE9ixSifN6IcWuRh1Fc=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -357,22 +365,44 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			ZiNHEJIvpb/NKlQQy5XqYo6ZYAE=
+			/fFz14TQDUe0XKa9o/iJ2A60Amk=
 			</data>
 			<key>hash2</key>
 			<data>
-			ponZPWyqevrDkKQr0hAmKclAIsj8Un6mQZBjekU06Ag=
+			43V4d5S6izE6+jKDP8lOjHy+3byVxddvgYDPQDhSkyI=
 			</data>
 		</dict>
 		<key>GoogleService-Info.plist</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			HumnClX8YZwczG1zp24JImpfEWg=
+			qC2SwrkeMc2dJm1ZIChjqzJYB5M=
 			</data>
 			<key>hash2</key>
 			<data>
-			uiYAIczPwp5+C1KOEkTnDb/W+cKG26vt9I5oAjVAKYg=
+			Mn+i++1I5k0H7z8QuppBwOjndNHD1PfIWBIDRKw84f0=
+			</data>
+		</dict>
+		<key>Headers/DelegateTransporter.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			QrAau6R++UYdH/1mCZA2XMcYCLI=
+			</data>
+			<key>hash2</key>
+			<data>
+			vcbhgW8Vc6u3aLjvI9kLkeg1pnq3HY6Ca7vw/RBEwbs=
+			</data>
+		</dict>
+		<key>Headers/ExceptionHandler.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			0O0j9bL1lXboROZ2OAdleywOLTk=
+			</data>
+			<key>hash2</key>
+			<data>
+			bOFI4QWcF/MmJvP11MifitQwm0wacYXB33nMzn6F7TU=
 			</data>
 		</dict>
 		<key>Headers/MCJSON.h</key>
@@ -390,825 +420,825 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			Q96q8RNI+yF49Xnu6g+t9/eF8Zc=
+			3moYedIZ/pqGgUPRpwl5lrw7El4=
 			</data>
 			<key>hash2</key>
 			<data>
-			VrfbuEEIQcJDLbczIOeNTefdflnEcYE0Owar0/xuUfk=
+			otRuVaGgvhZC/oDDL+AkvKnTYlHzm79ve7AuQpSc7WY=
 			</data>
 		</dict>
 		<key>Headers/MsgaiChat.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			FVuwX5CheJHW5av5PrqvVzWuGJE=
+			G/Ac75gKuv1+H0hm7cgXCszC6h8=
 			</data>
 			<key>hash2</key>
 			<data>
-			N7VVDbHayw3ywEvXVaPihuYGCbw1c8bH8svxBFWX0Tg=
+			yVAzqkzRloc8XGJIPYImVelZKZtm4skW6dTEH/e2b3o=
 			</data>
 		</dict>
 		<key>ImageViewerController.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			vNV2wQGPgk3MK4Oi/bbiPvr39iE=
+			wFAOnnutbBRFCOuCa+RHz6cP8HI=
 			</data>
 			<key>hash2</key>
 			<data>
-			F3mklwS2iu2A1lX2p19Gwk/d/xZ4IiWOCoM4Hyn/N+g=
+			iEXRsv01PCgDsVN19VHfAemTt6qrief9/VR1MQ4XkPg=
 			</data>
 		</dict>
 		<key>MCCarouselView.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			Y8zp8K8gHMo/TSeD9ZHXdZDweFU=
+			E4QlSK8GPbencriNIeF7SdiAI/E=
 			</data>
 			<key>hash2</key>
 			<data>
-			BDvg4QsMrM8urH6Aeye48OSYXvPIOWH0SEOBmMlUXw0=
+			Gu/pPbxtz4JdsWHojYQnOjZsli6/ihdOVN89JNes/f4=
 			</data>
 		</dict>
 		<key>MCCarouselViewCell.nib/objects-11.0+.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			/sPwynKD40izPlJ/VhNRGR7YKLw=
+			wy3M+KsF9z8NM+1T0U3kAXSw4BU=
 			</data>
 			<key>hash2</key>
 			<data>
-			u/YPLZlHYYINBs+ZrTv/LhyX4+JRJ2Fc6PQ/mYSJfsk=
+			hmo9CAiXiDJ5IYknWyOTrufFlOnNnGlyXQjHv92/6EQ=
 			</data>
 		</dict>
 		<key>MCCarouselViewCell.nib/runtime.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			YDDkdV1hBbarQHoV3wHLAOVRKnw=
+			ccrpWY0tO3C7E/g92ACo+DtzKVo=
 			</data>
 			<key>hash2</key>
 			<data>
-			n6njoosx+/CPfxeFc/i/HEGLejbJ5ulH93IqIhdCa64=
+			GchW/ae7zQ90md2VTuTFFMic8j6rSH8CCwrUY+QuNhk=
 			</data>
 		</dict>
 		<key>MCCarouselViewDetailImageCell.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			hr0klw7auR+zkI4krAuR4fNvHvE=
+			3y0xNkkHPRYUKJC30eOsLQS79Pk=
 			</data>
 			<key>hash2</key>
 			<data>
-			CX4GkBH8uhBu834xoe2G8DJBMIzboj8AO8CDcM4/gds=
+			+5ERENP2lU7uq6c4yi7Wb8jfcSlM1JzCEjVYEaKWOIo=
 			</data>
 		</dict>
 		<key>MCCarouselViewDetailOptionCell.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			fDtQt5frVJ0R4zvhQ7jJ20gLQ6Q=
+			QVzUi0NdM99u0XS4hWzWOKIzjIM=
 			</data>
 			<key>hash2</key>
 			<data>
-			G4noawDVZ17gVL3ZLbFmjxinW972j0UmY5JIzLLi09I=
+			Cfj7mN3s0BKgadhsm4crLjAv7Ob98VVbANFZvoDxzG0=
 			</data>
 		</dict>
 		<key>MCCarouselViewDetailTitleCell.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			tsqh82PNlMDeTgTy+YW3R6CS/A0=
+			eh+UjjKYC8mHoTm6u/DJF8oFU5o=
 			</data>
 			<key>hash2</key>
 			<data>
-			2W71MW3svn70rgweLfu7Dv48qm6KvS4vjCkpEFzsq5U=
+			yZzEqfmjWjcuMb1WDnflXnp9NmHRH+VKAaFpjXfMb9U=
 			</data>
 		</dict>
 		<key>MCChat.storyboardc/DhY-sQ-zlI-view-gF1-9F-Xcl.nib/objects-11.0+.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			F5KH375vVgwEjK1XtO6XpBDdcM8=
+			9m6ukmZij2TRA6xLBUXaphGaEW8=
 			</data>
 			<key>hash2</key>
 			<data>
-			Y73IFC3bvcRXvqXCi1yutl+mY40wSt7veb57WkRYFw8=
+			NdFggJlo2l5tQq4U4Wdo8BoapidLWAD90aih9lyO7CQ=
 			</data>
 		</dict>
 		<key>MCChat.storyboardc/DhY-sQ-zlI-view-gF1-9F-Xcl.nib/runtime.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			4jg27VVdfcscnfFmB1tFbDPcKJw=
+			5W48wxoAFl+a8wJiERl1o3XJ7Qc=
 			</data>
 			<key>hash2</key>
 			<data>
-			KnE6ivXIic3GntpE1k4GnvmEqhoF/zqJKDGVmz0tMHE=
+			aqAjGRttMeepp1lwC4YEXceOOZNym2iR4n2cMM18aOI=
 			</data>
 		</dict>
 		<key>MCChat.storyboardc/Info.plist</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			OtYkLYAV3zKguhIVLxCs+kt8hos=
+			pOXLXMwOwBB0tqO1OWSVdIqiZrk=
 			</data>
 			<key>hash2</key>
 			<data>
-			9/T863ZgWvOsiY0tzfnlWEw14ZUiDh8tgTJXGBh3hSQ=
+			LQvOJ04cdLoB491f8SKRaVPUTIdwUCSEabMFLLu7nMA=
 			</data>
 		</dict>
 		<key>MCChat.storyboardc/MCChat.nib/objects-11.0+.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			U2BDXIpMKbg/tV3jCA53hJcLMTg=
+			+vRWX+ccJTPc40WHUV/cv+rzgdk=
 			</data>
 			<key>hash2</key>
 			<data>
-			EViEPiv/KRTJ59xyrOTjTdyN5T8xnvZGEcPrmXShlMw=
+			nhf+EpullSI+VId/YRkukHHqbP3MXEDtmaLt6P3T/VI=
 			</data>
 		</dict>
 		<key>MCChat.storyboardc/MCChat.nib/runtime.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			IZgAJOBchTb91Seumj24XureYMA=
+			g1wp5ivh6ZCyl3ui1XN552ep9hI=
 			</data>
 			<key>hash2</key>
 			<data>
-			idTwOnermj+n5GJYbmuGVtzlNM/b1oI7kmcdcN34yoU=
+			7eXoKe0bQWj+ra1k1OYsGzD9PXjhAulEBM2FMutKZOc=
 			</data>
 		</dict>
 		<key>MCChat.storyboardc/MCChatNav.nib/objects-11.0+.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			Yex2c9Lkx0FDx/lpm3PnSltX7Ds=
+			00jTJusIi9HxL7zVCpLJ1N9hCp8=
 			</data>
 			<key>hash2</key>
 			<data>
-			6ZyxlAOnFC/ZrQJQ3L/6+HICDd5AVvhAlXY/c+jez2s=
+			OGTuwv2OyuHAXuvUykdgYboZWTeUYKqpzD29bm0CxUU=
 			</data>
 		</dict>
 		<key>MCChat.storyboardc/MCChatNav.nib/runtime.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			eGL+tvX5wu5drALt3fMIFSdw7Ms=
+			wyNBfU28zS3SDKTIPFHqDofOwpc=
 			</data>
 			<key>hash2</key>
 			<data>
-			lCe8PnkxQfQ9Bjb/V//jabpiWYIsCweCEuTOzOgviFU=
+			PQRyBazHhtvzQFm6ZkcqypqWSsj7O8Pyj093orJ1kSg=
 			</data>
 		</dict>
 		<key>MCChat.storyboardc/MCFAQViewController.nib/objects-11.0+.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			eSy9CPszko4ZfvAPEnOcdR1U050=
+			T+FwyIaTzlqp06mJ6lC/KR8wVBY=
 			</data>
 			<key>hash2</key>
 			<data>
-			vH1gsFoPzDrC0561omBpO4ZudHK8VdxusWgU9fgpNac=
+			fxRm854ynTho3/YyAxrNPj1Bx8KXa3127fFo6/18my8=
 			</data>
 		</dict>
 		<key>MCChat.storyboardc/MCFAQViewController.nib/runtime.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			hnvbJKX57sTVhE5YfiQK8JVHwSk=
+			mxGo+C/t0Itv8MJsls6JddRl/yQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			6ZY3N/15MBU+OuTsqUhyJ2uozYzh2yfdQM8RROlgh50=
+			MUJPN9fdyoAS5mOvu3Ul5DSYrUSOLbuc/sDfVvADuBU=
 			</data>
 		</dict>
 		<key>MCChat.storyboardc/MCLocationDetailsVC.nib/objects-11.0+.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			4MiuTks9A3kiN15bp5xfZOJQX/4=
+			nxayeucB1WS+u+p2woqZaO2Ouew=
 			</data>
 			<key>hash2</key>
 			<data>
-			15AfX8klBn+GkJ1Ym8mzVzDoK6uQjlsuYcDcckg9/Fw=
+			dubEe+5BrGbDWZQZVtoa3iYfXh2FvdNI0UYOXeH06WU=
 			</data>
 		</dict>
 		<key>MCChat.storyboardc/MCLocationDetailsVC.nib/runtime.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			71hwxf8B4jsGxq8BUnFlsdqpVSs=
+			r2TvwNbpY7dLwrdIH1lVkkqPw1A=
 			</data>
 			<key>hash2</key>
 			<data>
-			W6/0N0lYxHEWZkVWagstIdpr+K48iLcdRlJALJCWP6M=
+			qWwEYDrysDzaddSrkg9THklEGUO+0W6QWjU1Iw/AhQs=
 			</data>
 		</dict>
 		<key>MCChat.storyboardc/MCMenuViewController.nib/objects-11.0+.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			1pchGG6VmLUwgEVX+yKjYV6FILk=
+			7YyL5GATjeiuwDbyeiQsOywW9Hs=
 			</data>
 			<key>hash2</key>
 			<data>
-			M7q0e3cEuZf3J7OsutY2/HI9YBL/M2bxM0gcJJwpCIE=
+			oL5VJMju8EPg6/bzffncHIbnJxeGl3O8RpEdsI14qyY=
 			</data>
 		</dict>
 		<key>MCChat.storyboardc/MCMenuViewController.nib/runtime.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			S2bvj5YsR1Y6g0ms2jXqupJC0Jw=
+			Q+Ao/GqlmdCoRvBMdJaJBTYQqq0=
 			</data>
 			<key>hash2</key>
 			<data>
-			f3yFchQH3ky4XFYuae1QCcF93FVqs11cPjqcNjNqSps=
+			/PO17tBNwjEUtYgDCd73F9itC7Aiqvv4QAVlSH8i9KI=
 			</data>
 		</dict>
 		<key>MCChat.storyboardc/MCWebviewController.nib/objects-11.0+.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			KYfmBiPP5iHw/6bCK6WcCPtI0JQ=
+			Py7/OjQBiqOBe8rX1HyLWwDcgBQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			FEDOJjv8T/Yd6VDyvYBZMqdUzWPwPf6vC50B6kU1AdI=
+			kg83b0H6Py6xaYZq93S1csOL1DcUKtrBAIleUoelKus=
 			</data>
 		</dict>
 		<key>MCChat.storyboardc/MCWebviewController.nib/runtime.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			sbuAjCPgDf+j0o9fAc1eeVj+YUo=
+			nPeYYqZfJWX0tanzshMP0DPFTaM=
 			</data>
 			<key>hash2</key>
 			<data>
-			LVQm7aIBKUX5Z44e0VIS7X+fzJyyzFgE7W7mtLEd8o4=
+			JxMJlONNXKn9lODxFz3pkasQuBoLW/83F4g1pkVHzS4=
 			</data>
 		</dict>
 		<key>MCChat.storyboardc/V2B-1B-L4s-view-74n-A1-CTN.nib/objects-11.0+.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			aPHJ3aPhZCYLn4CqTRHVm3Jbsrs=
+			RC7OG8J4NK5VQxzxk7c9AWze5VA=
 			</data>
 			<key>hash2</key>
 			<data>
-			qyNHeOSloU4c3OJlhL0qnCS7f13x0cA+cLhThRisBVY=
+			cIeApZ42a4Og/OzZ7Pp0sRdxVu3ZWAo8vu9B+InpBbs=
 			</data>
 		</dict>
 		<key>MCChat.storyboardc/V2B-1B-L4s-view-74n-A1-CTN.nib/runtime.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			ULkIb9578tsNDAedz0nO8zGF0TI=
+			gmfLWTAeUNDfVQa4yIuKhyVZqXY=
 			</data>
 			<key>hash2</key>
 			<data>
-			Lx7WQGKhoblP+wfHj9HWxxH46f2S1P5o7FUSZF6MXgk=
+			zh3jbPMwe5ybntJnbZ8RNCxHXba8aJ5axE9QZYYdQ3o=
 			</data>
 		</dict>
 		<key>MCChat.storyboardc/c87-ax-RvA-view-hmA-2a-gtw.nib/objects-11.0+.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			cDjvZ17Ya5PeIQOvdxbvcNashVM=
+			gWyuReC998tsezCS7D02qtD5NTE=
 			</data>
 			<key>hash2</key>
 			<data>
-			MXX3CFqVGNuW3NGD1MmeFl2YwodNcLrXWK/NHZZVrjQ=
+			YcdKBdADEGrCGAz/rvtgTOgVQIJ74x+VhYCaZ/AMPcs=
 			</data>
 		</dict>
 		<key>MCChat.storyboardc/c87-ax-RvA-view-hmA-2a-gtw.nib/runtime.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			1NJA8G/GjVWnTqvsK7PyNFqBsUM=
+			zByoouBGGztUQ8fqS3PfCoE9nf4=
 			</data>
 			<key>hash2</key>
 			<data>
-			FZyZS0gjVt7hxwQcA7ngOcTGnc0WYCtCnjv9lFjsP4I=
+			Ri6u8ibvXHJtpA2qeNvY40fRcz07nXqYYNpAmFNQaHw=
 			</data>
 		</dict>
 		<key>MCChat.storyboardc/ps8-L8-lBq-view-ddw-u1-t4D.nib/objects-11.0+.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			iVmtUqaEO/18Y5lN4VdS6nsnbRQ=
+			bZcm8smF+3EX6ecsFnvX4YHCDzQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			WB3HSNaxGAfB19VfxTPbH3UuJfxlj7bi1LM/DDwZ7S0=
+			Qd0zc/iH/5CyML/8qme2nAeTEaLpiQvdM3i8716hLHE=
 			</data>
 		</dict>
 		<key>MCChat.storyboardc/ps8-L8-lBq-view-ddw-u1-t4D.nib/runtime.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			YQMZhRvQRTJYAXQjAoZupstru0Q=
+			aU3F8DrgHKOETzQyqVTllbfILX8=
 			</data>
 			<key>hash2</key>
 			<data>
-			Wp2KZ59h9/JGrBrRMdzO80ejbZ4emXVlOIF4Zmx+OBc=
+			lld80vDA8UNTbJSfZ+TYalX7dXVGPlHQ6ShqY+XwmV0=
 			</data>
 		</dict>
 		<key>MCChat.storyboardc/w8n-nQ-KV6-view-xLX-Uu-ryq.nib/objects-11.0+.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			YPlYQoyvfiiibVvjI//Je/jEOOM=
+			fI7mIHguMe/JG0W8WyrRvKOZAz8=
 			</data>
 			<key>hash2</key>
 			<data>
-			dFYBLwMDRlizGR2/xVjymhq3GqdWcemOXkA/VwWBC8U=
+			brfvta5uFTIWWmyIxOZ0AuheCY7euDlZ9NGJ8Y9gagg=
 			</data>
 		</dict>
 		<key>MCChat.storyboardc/w8n-nQ-KV6-view-xLX-Uu-ryq.nib/runtime.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			a+Xl2iYzNVBTQ8tSm/FTKDuKFe0=
+			Hq2TtKhxqNnk067VFZN6OXhr+Hs=
 			</data>
 			<key>hash2</key>
 			<data>
-			r/t7JODJwwFRh/QRRl351PA2xRFjKhNYsIpAFPjKKKc=
+			oBIWFrGIm6zvaCyKyamZL6iuthm1F3FT9sTEfwG7gFY=
 			</data>
 		</dict>
 		<key>MCChatBottomCardCell.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			IN+Q07CU8Q++s7J/3H5/hSrhJks=
+			WQFv3TOEVwuoNIDhns1bySj6h5o=
 			</data>
 			<key>hash2</key>
 			<data>
-			PQ2fuu7Mv58Kzyu/KNhbejUyZosQdJVvEE0PAO/8YlQ=
+			N2TnFzZHhZYpa2sM5lCXziJq2YbUBfjiVaW4MYE1mj0=
 			</data>
 		</dict>
 		<key>MCChatCarouselCell.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			ruXHLlTRFnNxhIkarjGkxHzdoxw=
+			IyWYj03kP+uF+ulEb8jX/QsQiX0=
 			</data>
 			<key>hash2</key>
 			<data>
-			sI9RuHkkVFSlVBfc3QHKljL3mrbgAZH9lUhqAjHDnAs=
+			CA8EsT52nvJfB8CB8PkqWu7i5uxs9BJ3aEHWcdrPTR8=
 			</data>
 		</dict>
 		<key>MCChatEmptyCell.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			LTWGiLpwFSX5rTixgWARnIA07wY=
+			SeJjOCsl9HXi879ZQxDF5LxU8yk=
 			</data>
 			<key>hash2</key>
 			<data>
-			adxtGxys1eDZEiYNrk1q380w6Di3y+3VGelPMYYpUXg=
+			24OaNXxmKzLLtA4JA2oiauCPEr7Q9jjKDBCD0/JA7TU=
 			</data>
 		</dict>
 		<key>MCChatGroupListCell.nib/objects-11.0+.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			aSywCOcXKcT8/2OWuAmglAHDGl8=
+			uTP6f7AbgMVxSR2SjhnzU/sb1io=
 			</data>
 			<key>hash2</key>
 			<data>
-			Oh6ZmkzHH+8aUUyrzfWuGZ+DL3tGijK23KHJ/Gl6YoM=
+			q85ZSVugpqW/B3apVeY9UWG0KkZC3/j0FxXs+9Y0Caw=
 			</data>
 		</dict>
 		<key>MCChatGroupListCell.nib/runtime.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			jvZtp6tMNyTFKd0CLrykNU4ke3s=
+			gVrtzRQaHlmceCsbVpaHttYOq+g=
 			</data>
 			<key>hash2</key>
 			<data>
-			/Zr5K7g43USlrmnI7SREZSLTBfolphE2FdNwh497C5s=
+			0JNgPdON0LH1IHG2rrZwzGNSuZ2OuT3EAhdDTCFOzvA=
 			</data>
 		</dict>
 		<key>MCChatParagraphTextCell.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			WDf6XDk9mwGGTCeFoDrtnbUs53s=
+			n2KQVkLaRmEoRggNDPGLEvXtu/M=
 			</data>
 			<key>hash2</key>
 			<data>
-			ByU3zs1jVMGiPt6yklnmJnyP+5Vl5TvhJJ4gis1yEic=
+			b/H0Ge2bIHThmsFuZjFNh3QWS/bhu572bUsBpleBFhA=
 			</data>
 		</dict>
 		<key>MCChatPostbackCollectionViewCell.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			x72T/4VCdQJMcQGGjf7WYKNSPEs=
+			uVwTPHdai80yr8A6oHT/kGdRcY4=
 			</data>
 			<key>hash2</key>
 			<data>
-			/GL5Yug/jf7qTI37ZZF1vDEExTvfxQLkQptT88LOmAc=
+			zqAngnL1KkVsXaCmiwEmY6k+94aWJoRI8pig6T5bJb8=
 			</data>
 		</dict>
 		<key>MCChatReceiverCell.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			XUZSnH6UGYHdlNvQhNrKkLaVqXY=
+			n9i7cVOqCvkj90yM/9G+3A3uav8=
 			</data>
 			<key>hash2</key>
 			<data>
-			mGrIZ/JgpeyI9Zg4ihZ88HVWOarZmdqqIyfeIj7xDFA=
+			bmDDATmXsYrN7jIy4GX6G1DTqZIM1L1w8WJTTyZLuzs=
 			</data>
 		</dict>
 		<key>MCChatSenderCell.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			ybI1rVqOEmL8L06uSywQo7n0yRE=
+			xPuE2gBwsAfzeChRQZ7/k456MCM=
 			</data>
 			<key>hash2</key>
 			<data>
-			zBmnlUKvdc/DiImacMu3Xc5SUJ688+2+h6X3CzYhQdw=
+			WnlngBxyrTmTig65Vrib0MD+sXgyeddZQPezSXdKQx0=
 			</data>
 		</dict>
 		<key>MCChatSenderCellPostback.nib/objects-11.0+.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			uu/UqWXIc9fYFixY0hbyZAAtIMc=
+			8fG7n65Hmr9SjJeBRCMAixGnJTg=
 			</data>
 			<key>hash2</key>
 			<data>
-			ktrX2vFWSF2P/oRSoDWGKmHwtirTo2J3m7ax2ZfKQ7k=
+			i/tVW8e325TObSFeVj+tmKKXu6Deu0QZSRpUnEROGFY=
 			</data>
 		</dict>
 		<key>MCChatSenderCellPostback.nib/runtime.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			yig/b6PEsSK01HGJuw1iNGPN6hI=
+			cLm47jvJx/YzKbOoEyBmKaJCqho=
 			</data>
 			<key>hash2</key>
 			<data>
-			5Eq1bsXQb1OL+NNyamAVtr2Z4H50bmpRgAsPr7Bf7lE=
+			L0PcKmoWml2kjeX9lOQYvvuJiHselqN4OoM9QpTDflI=
 			</data>
 		</dict>
 		<key>MCChatSenderPostbackCardCell.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			lFpdfB+8K1jAU5wJK6R6Jn7RNQE=
+			W7twtJgKxR0ujMfWZs6P9W+l8Nk=
 			</data>
 			<key>hash2</key>
 			<data>
-			X49lFiwVRWZa1BloeQkbz6DJK51hWC43fQtoZRHNJGY=
+			obHRnlIwA/MGga3lEeSLLynWMoUPcaDaZlO8La8ZgT0=
 			</data>
 		</dict>
 		<key>MCChatTypingCell.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			4N8Q3+8f6TQn+FopieKdyFYs4SE=
+			3UX27b0l3ecc1x95Kd7xe1R8Bns=
 			</data>
 			<key>hash2</key>
 			<data>
-			al+1+kujXsVdliNYAwZ4XHeX3U+12wym+GAFyftyZLk=
+			qbuT8tus5+xLMwbbVlirgLqpX6U6YDutogLaBvP3nJs=
 			</data>
 		</dict>
 		<key>MCChatWelcomeCell.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			R2GkEvbVVg0ynAYIYu1coO4lRpw=
+			IQOaVnftoxwEDMGLLckoRRuaNaY=
 			</data>
 			<key>hash2</key>
 			<data>
-			ufyvgvE/HUa4OK8HqocQu/DMznLrFDVwM2tvYKI+8YI=
+			/JXfEMUz1NCgkXs9Uz3QJEdEsmI2RxwHChGAItwHSuA=
 			</data>
 		</dict>
 		<key>MCFAQIntroCell.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			eYnZWjmFZZPssEk1B8fBbEv1CIM=
+			GcElH5cRjAnzA4D6GTmZYGqRuuU=
 			</data>
 			<key>hash2</key>
 			<data>
-			SyQUSA2QZkxiPjhmgPokDPIhnbkeMrBpTdODfo0UyAA=
+			GyinZdYAfSoNUk2OJRl9vg3n+7NKmN8J+3DKz3azHtQ=
 			</data>
 		</dict>
 		<key>MCFAQListCell.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			J53D43bCb7qLBsRLVVR7iStxHaw=
+			uDfCdZ9y0XGMbUp2rDt3Pvfzkvk=
 			</data>
 			<key>hash2</key>
 			<data>
-			OlFJI3rUmuooI+k1vudoBYkr0RG9wDZ6jyIr46hMTRM=
+			70FOigif5a0Or3/T1VemgrwnC4zPsICP9rR+kHP80ig=
 			</data>
 		</dict>
 		<key>MCFAQListHeaderView.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			czDoHMVTGE0xJDKHQbC+zHuG0vo=
+			GhSmXUNoPuHmVTX3J+mGuR/a3wE=
 			</data>
 			<key>hash2</key>
 			<data>
-			H0Yj9ip5mMbldL55npKqZNpXt0ljWKzQpT6meafED74=
+			O+Oa/l7mQRiAwx6RUB1SBmanTp0kmiUs/NZaRyMXGh0=
 			</data>
 		</dict>
 		<key>MCGroupListTableCell.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			EMp+zNpDtQ/RuDfKBy/iYPcC6Ak=
+			1atSPqELWEuz69DhUGqThUsnULc=
 			</data>
 			<key>hash2</key>
 			<data>
-			7GMjcKFv+3r6/QfGAME4LXsgsRXyZMsWllDocDAsWXs=
+			Sxb9C/wwRInuAPZZXNhDQolo6KrFLXgHbz9J60VBhVE=
 			</data>
 		</dict>
 		<key>MCImageCardCell.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			ee68Qm0jlzTkzFY/2dPujpnsDuY=
+			m6ZuhoM2zL7af3kuACxICGPEyxs=
 			</data>
 			<key>hash2</key>
 			<data>
-			36LIPjN/LIHNYhCe0hMs9yX/q3Cba/Qm7kKJao1rC2Y=
+			/2vGPZefe2QgfATLfZXPv44/ubdMXZVPM1tVU0N7X5s=
 			</data>
 		</dict>
 		<key>MCListTemplateButtonCell.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			py1Nf2h0+HnR+g2wSZGxtlEw0Jg=
+			Zhj/BMrw+/Xkjkj81hKT1n7bLAs=
 			</data>
 			<key>hash2</key>
 			<data>
-			ED2gOPPsDPui3IzgA0BAV8Qj3SXW1g0kxWWNfFk/+iQ=
+			PHSgM+DLI1IIrF0oBya5B0OyuFjUPTipM1np0pKAD+A=
 			</data>
 		</dict>
 		<key>MCListTemplateCell.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			jdCZ75Db9XRXRVDqh7yGsPd281M=
+			0A9ZQuMxN5qNJ8Qa7obQ6Opd/TE=
 			</data>
 			<key>hash2</key>
 			<data>
-			8uS2ACtUCnYartAGOJviN6zSwzzLJvQl611Mdf5xId4=
+			mN9PwjUquyo9DqpyKOn90OmdAavHyZhqQesPUxcbPok=
 			</data>
 		</dict>
 		<key>MCListTemplateItemCell.nib/objects-11.0+.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			YULWeF2n+5BT9n1ltmej+XCgYYg=
+			BTyu/jU3CSY11q+kCZ7IbGU6iVI=
 			</data>
 			<key>hash2</key>
 			<data>
-			v3lCF3eH3cKMGrQap/AS7TXKesr7bLydlrYRxgabL1E=
+			8FP/5vOHq/wLPbZ5dLSy8axkUVUHghyFtu2Q+HVriz0=
 			</data>
 		</dict>
 		<key>MCListTemplateItemCell.nib/runtime.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			0TPmpx/EVr7SRFfWKiig9ZuBXqA=
+			XDwQtkMfQsycKbTdyaGsvgKnCOU=
 			</data>
 			<key>hash2</key>
 			<data>
-			vNO/ZZa3oZWkNO1x80IhbcYaWNA4EqbiWZXp4KNLitc=
+			rjmv5uaTuAOToOGTAZho2D0s3VoRSM7ldUs7tnRNnzo=
 			</data>
 		</dict>
 		<key>MCListTemplateView.nib/objects-11.0+.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			+iDz3rtTZcKgdtiFvpfi9Rt+Ccc=
+			8ukiuTD4OGfvdwHaWRUQtjzlOFc=
 			</data>
 			<key>hash2</key>
 			<data>
-			3fh/FKROKmUYUfV0VjaJHs4I4rl619k2mYJl2Gt7gPU=
+			znEl71EOpKX2wMbsSDbzpJsNcdIqpT+5ehBeSy+uUv8=
 			</data>
 		</dict>
 		<key>MCListTemplateView.nib/runtime.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			/dFhzqSITIfCKq0JC1h4g0NXstg=
+			Z80SY8pfaQVUK3bB1qnO83fvPSg=
 			</data>
 			<key>hash2</key>
 			<data>
-			UYGuRXFC4M1JxmVGruBVAThCIYVb7zjHOd8P9gdo69A=
+			+AOgsiHIkdaToIZZ22rk2XLKvCQ3q7tSjoPOUXH5mvI=
 			</data>
 		</dict>
 		<key>MCLocationCardCell.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			SQiV9cV3fSmic5UlUKzqYHwUd6Q=
+			JoqrpbfgvtoaO0uZbI4Q3ab3cFc=
 			</data>
 			<key>hash2</key>
 			<data>
-			XDWyMh793SwpMBY0lQt7JvGhH7qToaOOK4zC1Ed5/Rs=
+			6gjSIWPEAddlEAwJl3DutmM2QjIiRghUPw0H22HZjfE=
 			</data>
 		</dict>
 		<key>MCPostbackCardView.nib/objects-11.0+.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			gdxEbRjiVW3KugjEArozn7/f7Qc=
+			7sG8CGeez2aeH3LOFmgQvNRMMcA=
 			</data>
 			<key>hash2</key>
 			<data>
-			6xMXIQg8nunL/LvJN+xfbbs5kOSFjxRkCHWAVL5QHkw=
+			0cX7mcxeCSiuOVhlZ4H8tpK4RrbIna8nIhBT99WvoA0=
 			</data>
 		</dict>
 		<key>MCPostbackCardView.nib/runtime.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			7+7r6+e5VIWLnP3SEGeGGtnuyUc=
+			TZ9TS/bvwf4jTM5xqJB9MaBDeB0=
 			</data>
 			<key>hash2</key>
 			<data>
-			Lx+SapXURH9rDlsxZnkjJ7d17wCQfAUV5X662TnwYI0=
+			w5LDIHkGw+xR8KGnHmWId4gNpMtM7FtIMsYYOCJV2Po=
 			</data>
 		</dict>
 		<key>MCPostbackCardViewTableCell.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			vGAkGnVag/WAZhTunpSBgmjEMYQ=
+			zzjwnNiCfk00pYsWwd1ehfViL1g=
 			</data>
 			<key>hash2</key>
 			<data>
-			F3KzJ52ocykGPoazqdSQjRCX/397IEwqPhsNd30M99w=
+			WTF4cXaSnThe3uFAJ65rRk3wLEbew3Z/WKn5CWcpwsM=
 			</data>
 		</dict>
 		<key>MCPostbackCardViewTableCellRight.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			CZKsjG/JQZVVpqh04xMLVx+4pDM=
+			LjzVl2qHi3ANVixJp6nmNceSRGo=
 			</data>
 			<key>hash2</key>
 			<data>
-			mGxV3MtHTDjvGkGn4xhyF4Pg3eysZ0T5vG54K1tl/HA=
+			oHQ3f3qWmly1ePpuI4NNU8jlX9JG4GniI86y+xfbs5U=
 			</data>
 		</dict>
 		<key>MCPostbackHorizontalView.nib/objects-11.0+.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			1LwJJba4tYFKEb24JQlgmPui0zs=
+			fg9DQNaCggQ667ZMswSnc5fOf2w=
 			</data>
 			<key>hash2</key>
 			<data>
-			wr0/9JasqvNY1cHP5NF19VmFqZWVC3U0GkKTZGoMrsY=
+			f0YxwBrEpT4B9GD1pTkq+HVB7bif3/0/kUMXcaFi1qk=
 			</data>
 		</dict>
 		<key>MCPostbackHorizontalView.nib/runtime.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			q60xtcpGKY8zW8EFf+6Eyzx4X3U=
+			gf5NWOvfhGs2KWAWLaGjEhA9/kA=
 			</data>
 			<key>hash2</key>
 			<data>
-			acB1zWu1Uroir1O922etJpy6+pCs5BBnAYLTxgAukQw=
+			JymdTYCrUO3dXMT/tdFGjtTCW2IjLIrZBhOqFMgbCwE=
 			</data>
 		</dict>
 		<key>MCPostbackTableCell.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			28YNFZ6oHlUBePrwGg/uS3+Cmr8=
+			oEKeh/iR4LxUjn3XqsWu6GK2258=
 			</data>
 			<key>hash2</key>
 			<data>
-			+hZFAsZdXe/3YtbylutW/XBi1F3Tw690Bl56MFq8/0E=
+			awhhomnOCMMr3NkPsKlvL807uB9LHtpKK1FMUSoJ9jY=
 			</data>
 		</dict>
 		<key>MCPostbackTableCellRight.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			Nj5nfRrEdZXe/HealXb9WqdNiLA=
+			xz8wISRMao+oB7zEMzCraKUO/ak=
 			</data>
 			<key>hash2</key>
 			<data>
-			6bTOe+LDu93CZBB3dxmDVSHf4W8HW+Vpt2ypB92dT2U=
+			bugaI0uJlkehyJRa77ciZIH34uZkMJf3coCcqfwYXWI=
 			</data>
 		</dict>
 		<key>MCPostbackVerticalView.nib/objects-11.0+.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			PpO5Jj0jDxRq/a/dUqE+4IV5yr0=
+			HRkzSNTvAjmZ7x1MKGX+K+byiJk=
 			</data>
 			<key>hash2</key>
 			<data>
-			uUV/ADDDwuvdt6VCMDMy9apE0l8edgSJz4iitmp2T9o=
+			lU+7+p9GVRq3SE5YHNqYNGM6KG2uJEK/fqHkjSF56E0=
 			</data>
 		</dict>
 		<key>MCPostbackVerticalView.nib/runtime.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			lg0uxko41KdmhO/6k0TJ1AISD24=
+			fw/aJa4UphfNudAH4JKcMBh/dJk=
 			</data>
 			<key>hash2</key>
 			<data>
-			i308+lHqpufqbhEaAWwacYq4wTs7hU5zvyfuhUjVv88=
+			S4oPfuIQcnqXrMfWthg3OUebbuYcm0TIpQq33+j4XOo=
 			</data>
 		</dict>
 		<key>MCSendLocationCell.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			0UEd4hK1l51Zux+ZoHuB/HCX6LM=
+			c4A023Z+7N//4KNeCXZGMJBS1cM=
 			</data>
 			<key>hash2</key>
 			<data>
-			gHYxaaHvdDKkQVtsXHY2XRxTulbgu2OOejBEKa9nAgo=
+			Qx35N0EOky3q/4BeR+wVpmaoWA68mRuABbY0rBBaWxQ=
 			</data>
 		</dict>
 		<key>MCVideoCardCell.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			VUahcn22jSsYK8Fsz2oSutNsqwk=
+			/tePgrghxCFeBnfIc5BtAW9Xwzg=
 			</data>
 			<key>hash2</key>
 			<data>
-			tb83L28lwrbr2avKoNytQKQ23h7quySThXaJCzgZ/fc=
+			mzR5QVF/9mDMmWVYhaaTgvwd4WsMQsvmsX3JQ7iPRq8=
 			</data>
 		</dict>
 		<key>MenuViewCell.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			FZt8SBIjRbfvSV8ci8gxae6zl9E=
+			LuB6KnqkEmw7UCDW7Gg98dTFT4s=
 			</data>
 			<key>hash2</key>
 			<data>
-			mWCHA0M5huXP7CBF8HYj99hNlIai0bE6bF+/XddQTeQ=
+			t72nDAlFStvzHTMV7XlfXPvvj/MCNBk0RyLz8plaQtY=
 			</data>
 		</dict>
 		<key>Modules/MsgaiChat.swiftmodule/arm.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			+MdzdkoVFTSBrqqiHStWxsfDoAs=
+			cpqNziy6bG86R/H9WL6HOY4A6YI=
 			</data>
 			<key>hash2</key>
 			<data>
-			gdrRU+WOCuxU5gkwU4nooLH39gPizm00zoOGeYOtXjA=
+			6zVTZ2CEZ6cvZ+3vKBx71B2Tw4G6K2/ariyx1AxdARM=
 			</data>
 		</dict>
 		<key>Modules/MsgaiChat.swiftmodule/arm.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			3MjWCn0hYIEiO2u6ChoqtN42wFY=
+			dW+HuexBjuTDtNoqMa+NmDC+wHQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			lePAatMNWouVPjU/7YI5r7rrHaKsEwQ17qruuklI+jA=
+			nboPGU3pemsNBWfxbcfKRXTrywUaXBDhsvvZOvQHQRI=
 			</data>
 		</dict>
 		<key>Modules/MsgaiChat.swiftmodule/arm64.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			RDsPl0y3/njzokANAhOJkw6V5S8=
+			6dh1A8BcFgAlYQen9h66u1Jsy/I=
 			</data>
 			<key>hash2</key>
 			<data>
-			JmuKUxSeiT5cTCOooMGLfsRQ+oi13Jp4o4e/QtUgu/8=
+			LcSBoZ4w9ouzSgH8KWvun84hy9deQ+r+gJg4h922UqM=
 			</data>
 		</dict>
 		<key>Modules/MsgaiChat.swiftmodule/arm64.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			djCXr0saV28qjrhgO8nP19OLiFU=
+			j3q8FwKKOE9ixSifN6IcWuRh1Fc=
 			</data>
 			<key>hash2</key>
 			<data>
-			cVzLCbvqs1S5r/emM+zQ3swDPb33BYYWjeAXF+9W9OM=
+			/43aLq12Ekhoz0hXKYwNGItfoDXZmW41Ge3tvfIkuBY=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

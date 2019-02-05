@@ -295,19 +295,19 @@ SWIFT_CLASS("_TtC9MsgaiChat14LocationPicker")
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
 @end
 
-@class MKMapView;
-
-@interface LocationPicker (SWIFT_EXTENSION(MsgaiChat)) <MKMapViewDelegate>
-- (void)mapView:(MKMapView * _Nonnull)mapView regionWillChangeAnimated:(BOOL)animated;
-- (void)mapView:(MKMapView * _Nonnull)mapView regionDidChangeAnimated:(BOOL)animated;
-@end
-
 @class CLLocationManager;
 @class CLLocation;
 
 @interface LocationPicker (SWIFT_EXTENSION(MsgaiChat)) <CLLocationManagerDelegate>
 - (void)locationManager:(CLLocationManager * _Nonnull)manager didFailWithError:(NSError * _Nonnull)error;
 - (void)locationManager:(CLLocationManager * _Nonnull)manager didUpdateLocations:(NSArray<CLLocation *> * _Nonnull)locations;
+@end
+
+@class MKMapView;
+
+@interface LocationPicker (SWIFT_EXTENSION(MsgaiChat)) <MKMapViewDelegate>
+- (void)mapView:(MKMapView * _Nonnull)mapView regionWillChangeAnimated:(BOOL)animated;
+- (void)mapView:(MKMapView * _Nonnull)mapView regionDidChangeAnimated:(BOOL)animated;
 @end
 
 @class UISearchBar;
@@ -710,12 +710,6 @@ SWIFT_CLASS("_TtC9MsgaiChat21MCPlaceholderTextView")
 
 SWIFT_CLASS("_TtC9MsgaiChat10MCSettings")
 @interface MCSettings : NSObject
-SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, copy) NSString * _Nonnull MCMenuItemCamera;)
-+ (NSString * _Nonnull)MCMenuItemCamera SWIFT_WARN_UNUSED_RESULT;
-SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, copy) NSString * _Nonnull MCMenuItemGallery;)
-+ (NSString * _Nonnull)MCMenuItemGallery SWIFT_WARN_UNUSED_RESULT;
-SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, copy) NSString * _Nonnull MCMenuItemLocation;)
-+ (NSString * _Nonnull)MCMenuItemLocation SWIFT_WARN_UNUSED_RESULT;
 /// MsgaiChat SDK supports region setting, default region is USA(“us”). European Union region code is “eu”. Contact MSGAI for getting more details about region codes.
 @property (nonatomic, copy) NSString * _Nonnull region;
 /// MsgaiChat SDK features a tappable menu icon that allows the user to send various message types. The types displayed in this menu can be customized, or the menu can be hidden altogether.
@@ -734,6 +728,8 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, copy) NSString * _No
 /// Chat view status bar style.
 @property (nonatomic) UIStatusBarStyle statusBarStyle;
 @property (nonatomic, copy) NSString * _Nullable configPlistFileName;
+/// Default is False, SDK will use sandbox environment. Set True when want to use our live server.
+@property (nonatomic) BOOL isLive;
 + (MCSettings * _Nonnull)defaultSettings SWIFT_WARN_UNUSED_RESULT;
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_DEPRECATED_MSG("-init is unavailable");
@@ -876,6 +872,36 @@ SWIFT_CLASS("_TtC9MsgaiChat9MsgaiChat")
 
 
 
+SWIFT_CLASS("_TtCE9MsgaiChatCSo11UITableView16ReverseExtension")
+@interface ReverseExtension : NSObject
+- (nonnull instancetype)init SWIFT_UNAVAILABLE;
++ (nonnull instancetype)new SWIFT_DEPRECATED_MSG("-init is unavailable");
+@end
+
+
+@interface ReverseExtension (SWIFT_EXTENSION(MsgaiChat)) <UITableViewDelegate>
+- (void)scrollViewDidScroll:(UIScrollView * _Nonnull)scrollView;
+- (void)tableView:(UITableView * _Nonnull)tableView willDisplayCell:(UITableViewCell * _Nonnull)cell forRowAtIndexPath:(NSIndexPath * _Nonnull)indexPath;
+- (void)tableView:(UITableView * _Nonnull)tableView willDisplayHeaderView:(UIView * _Nonnull)view forSection:(NSInteger)section;
+- (void)tableView:(UITableView * _Nonnull)tableView willDisplayFooterView:(UIView * _Nonnull)view forSection:(NSInteger)section;
+@end
+
+
+@interface ReverseExtension (SWIFT_EXTENSION(MsgaiChat)) <UITableViewDataSource>
+- (NSInteger)tableView:(UITableView * _Nonnull)tableView numberOfRowsInSection:(NSInteger)section SWIFT_WARN_UNUSED_RESULT;
+- (UITableViewCell * _Nonnull)tableView:(UITableView * _Nonnull)tableView cellForRowAtIndexPath:(NSIndexPath * _Nonnull)indexPath SWIFT_WARN_UNUSED_RESULT;
+- (NSInteger)numberOfSectionsInTableView:(UITableView * _Nonnull)tableView SWIFT_WARN_UNUSED_RESULT;
+- (NSString * _Nullable)tableView:(UITableView * _Nonnull)tableView titleForHeaderInSection:(NSInteger)section SWIFT_WARN_UNUSED_RESULT;
+- (NSString * _Nullable)tableView:(UITableView * _Nonnull)tableView titleForFooterInSection:(NSInteger)section SWIFT_WARN_UNUSED_RESULT;
+- (BOOL)tableView:(UITableView * _Nonnull)tableView canEditRowAtIndexPath:(NSIndexPath * _Nonnull)indexPath SWIFT_WARN_UNUSED_RESULT;
+- (BOOL)tableView:(UITableView * _Nonnull)tableView canMoveRowAtIndexPath:(NSIndexPath * _Nonnull)indexPath SWIFT_WARN_UNUSED_RESULT;
+- (NSArray<NSString *> * _Nullable)sectionIndexTitlesForTableView:(UITableView * _Nonnull)tableView SWIFT_WARN_UNUSED_RESULT;
+- (NSInteger)tableView:(UITableView * _Nonnull)tableView sectionForSectionIndexTitle:(NSString * _Nonnull)title atIndex:(NSInteger)index SWIFT_WARN_UNUSED_RESULT;
+- (void)tableView:(UITableView * _Nonnull)tableView commitEditingStyle:(UITableViewCellEditingStyle)editingStyle forRowAtIndexPath:(NSIndexPath * _Nonnull)indexPath;
+- (void)tableView:(UITableView * _Nonnull)tableView moveRowAtIndexPath:(NSIndexPath * _Nonnull)sourceIndexPath toIndexPath:(NSIndexPath * _Nonnull)destinationIndexPath;
+@end
+
+
 SWIFT_CLASS("_TtC9MsgaiChat11ThemePicker")
 @interface ThemePicker : NSObject <NSCopying>
 - (id _Nonnull)copyWithZone:(struct _NSZone * _Nullable)zone SWIFT_WARN_UNUSED_RESULT;
@@ -891,12 +917,12 @@ SWIFT_CLASS("_TtC9MsgaiChat37ThemeActivityIndicatorViewStylePicker")
 
 
 
+
+
 @interface ThemeActivityIndicatorViewStylePicker (SWIFT_EXTENSION(MsgaiChat))
 + (ThemeActivityIndicatorViewStylePicker * _Nonnull)pickerWithKeyPath:(NSString * _Nonnull)keyPath SWIFT_WARN_UNUSED_RESULT;
 + (ThemeActivityIndicatorViewStylePicker * _Nonnull)pickerWithStringStyles:(NSArray<NSString *> * _Nonnull)styles SWIFT_WARN_UNUSED_RESULT;
 @end
-
-
 
 
 
@@ -1019,12 +1045,12 @@ SWIFT_CLASS("_TtC9MsgaiChat29ThemeKeyboardAppearancePicker")
 
 
 
-
-
 @interface ThemeKeyboardAppearancePicker (SWIFT_EXTENSION(MsgaiChat))
 + (ThemeKeyboardAppearancePicker * _Nonnull)pickerWithKeyPath:(NSString * _Nonnull)keyPath SWIFT_WARN_UNUSED_RESULT;
 + (ThemeKeyboardAppearancePicker * _Nonnull)pickerWithStringStyles:(NSArray<NSString *> * _Nonnull)styles SWIFT_WARN_UNUSED_RESULT;
 @end
+
+
 
 
 
@@ -1082,12 +1108,12 @@ SWIFT_CLASS("_TtC9MsgaiChat25ThemeStatusBarStylePicker")
 
 
 
-
-
 @interface ThemeStatusBarStylePicker (SWIFT_EXTENSION(MsgaiChat))
 + (ThemeStatusBarStylePicker * _Nonnull)pickerWithKeyPath:(NSString * _Nonnull)keyPath SWIFT_WARN_UNUSED_RESULT;
 + (ThemeStatusBarStylePicker * _Nonnull)pickerWithStringStyles:(NSArray<NSString *> * _Nonnull)styles SWIFT_WARN_UNUSED_RESULT;
 @end
+
+
 
 
 
@@ -1245,9 +1271,23 @@ SWIFT_CLASS("_TtC9MsgaiChat25ThemeStatusBarStylePicker")
 
 
 @interface UITableView (SWIFT_EXTENSION(MsgaiChat))
+@end
+
+
+@interface UITableView (SWIFT_EXTENSION(MsgaiChat))
+- (void)willMoveToSuperview:(UIView * _Nullable)newSuperview;
+@end
+
+
+@interface UITableView (SWIFT_EXTENSION(MsgaiChat))
 @property (nonatomic, strong) ThemeColorPicker * _Nullable theme_separatorColor;
 @property (nonatomic, strong) ThemeColorPicker * _Nullable theme_sectionIndexColor;
 @property (nonatomic, strong) ThemeColorPicker * _Nullable theme_sectionIndexBackgroundColor;
+@end
+
+
+@interface UITableViewCell (SWIFT_EXTENSION(MsgaiChat))
+- (void)willMoveToSuperview:(UIView * _Nullable)newSuperview;
 @end
 
 
