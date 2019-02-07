@@ -18,3 +18,5 @@ FOUNDATION_EXPORT const unsigned char MsgaiChatVersionString[];
 #import <MsgaiChat/MCJSON.h>
 #import <MsgaiChat/ExceptionHandler.h>
 #import <MsgaiChat/DelegateTransporter.h>
+#import "sqlite3.h"
+#import <time.h>
