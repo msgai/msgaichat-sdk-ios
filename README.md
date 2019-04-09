@@ -1,2 +1,1 @@
-# msgaichat_ios
-
+# Contact https://msg.ai

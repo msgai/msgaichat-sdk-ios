@@ -1,0 +1,154 @@
+{
+    "persistent_menu": [
+        {
+            "language_code": "en",
+            "call_to_actions": [
+                {
+                    "type": "POST_BACK",
+                    "name": "Main Menu",
+                    "payload": "Main Menu",
+                    "menu": [
+                        
+                    ]
+                },
+                {
+                    "type": "MENU",
+                    "name": "Sub Menu 1",
+                    "payload": "",
+                    "menu": [
+                        {
+                            "type": "MENU",
+                            "name": "Sub Menu 1 Item1",
+                            "payload": "",
+                            "menu": [
+                                {
+                                    "type": "POST_BACK",
+                                    "name": "Sub Menu 1_1 item1",
+                                    "payload": "Sub Menu 1_1 item1",
+                                    "menu": [
+                                        
+                                    ]
+                                },
+                                {
+                                    "type": "POST_BACK",
+                                    "name": "Sub Menu 1_1 item2",
+                                    "payload": "Sub Menu 1_1 item2",
+                                    "menu": [
+                                        
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "POST_BACK",
+                            "name": "Sub Menu 1 Item2",
+                            "payload": "Sub Menu 1 Item2",
+                            "menu": [
+                                
+                            ]
+                        },
+                        {
+                            "type": "POST_BACK",
+                            "name": "Sub Menu 1 Item3",
+                            "payload": "Sub Menu 1 Item3",
+                            "menu": [
+                                
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "LOCATION",
+                    "name": "Location",
+                    "payload": "Location",
+                    "menu": [
+                        
+                    ]
+                },
+                {
+                    "type": "POST_BACK",
+                    "name": "Help",
+                    "payload": "Help",
+                    "menu": [
+                        
+                    ]
+                }
+            ]
+        },
+        {
+            "language_code": "fr",
+            "call_to_actions": [
+                {
+                    "type": "POST_BACK",
+                    "name": "Menu principal",
+                    "payload": "Main Menu",
+                    "menu": [
+                        
+                    ]
+                },
+                {
+                    "type": "MENU",
+                    "name": "Sous-menu 1",
+                    "payload": "",
+                    "menu": [
+                        {
+                            "type": "MENU",
+                            "name": "Sous-menu 1 élément1",
+                            "payload": "",
+                            "menu": [
+                                {
+                                    "type": "POST_BACK",
+                                    "name": "Sous-menu 1_1 item1",
+                                    "payload": "Sub Menu 1_1 item1",
+                                    "menu": [
+                                        
+                                    ]
+                                },
+                                {
+                                    "type": "POST_BACK",
+                                    "name": "Sous-menu 1_1 item2",
+                                    "payload": "Sub Menu 1_1 item2",
+                                    "menu": [
+                                        
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "POST_BACK",
+                            "name": "Sous-menu 1 élément2",
+                            "payload": "Sub Menu 1 Item2",
+                            "menu": [
+                                
+                            ]
+                        },
+                        {
+                            "type": "POST_BACK",
+                            "name": "Sous-menu 1 élément3",
+                            "payload": "Sub Menu 1 Item3",
+                            "menu": [
+                                
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "LOCATION",
+                    "name": "Emplacement",
+                    "payload": "Location",
+                    "menu": [
+                        
+                    ]
+                },
+                {
+                    "type": "POST_BACK",
+                    "name": "Aidez-moi",
+                    "payload": "Help",
+                    "menu": [
+                        
+                    ]
+                }
+            ]
+        }
+    ]
+}

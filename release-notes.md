@@ -1,8 +1,10 @@
 # MsgaiChat SDK iOS Release Notes
 
 ## 1.0
-2019-02-04
+2019-04-09
 
+* Firebase Message and Push Notification support added.
+* Language support added.
 * List Message type.
 * Location sharing.
 * SDK configurations can be modified by using MsgaiChat-Config.plist file.

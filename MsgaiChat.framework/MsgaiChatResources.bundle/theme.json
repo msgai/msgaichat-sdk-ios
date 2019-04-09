@@ -1,0 +1,76 @@
+{
+    "UIStatusBarStyle": "default",
+    "Global": {
+        "backgroundColor": "#FFF",
+        "statusBarBackgroundColor": "#FFF",
+        "navBarBackgroundColor": "#FFFFFF",
+        "textColor": "#1d1d1d",
+        "navBarTitleTextColor": "#1d1d1d",
+        "separatorLineColor": "#1d1d1d",
+        "buttonBackgroundColor": "#33bbb9",
+        "buttonTitleTextColor": "#ffffff"
+    },
+    "BotMessage": {
+        "textColor": "#040404",
+        "backgroundColor": "#e6e6e6"
+    },
+    "UserMessage": {
+        "textColor": "#ffffff",
+        "backgroundColor": "#00aaa7"
+    },
+    "TypingIndicator": {
+        "defaultColor": "#D8D8D8",
+        "selectedColor": "#38B0C7"
+    },
+    "WelcomeCell": {
+        "greetingTextColor": "#01467f",
+        "dateTextColor": "#3f3f3f"
+    },
+    "TextCard": {
+        "titleTextColor": "#3f3f3f",
+        "optionsTextColor": "#33bbb9",
+        "separatorLineColor": "#30979797"
+    },
+    "MessageComposer": {
+        "textColor": "#1d1d1d",
+        "placeholderTextColor": "#bebebe"
+    },
+    "CarouselCell": {
+        "titleTextColor": "#040404",
+        "backgroundColor": "#ffffff",
+        "separatorLineColor": "#04040433",
+        "optionsButtonTitleTextColor":"#33bbb9",
+        "descriptionTextColor": "#040404",
+        "boderColor": "#9797972E"
+    },
+    "InfoPage": {
+        "textColor": "#5a5a5a",
+        "linksTextColor": "#37aec3",
+        "separatorLineColor": "#b3b3b3",
+        "headerBackgroundColor": "#FFFFFF"
+    },
+    "QuickReply": {
+        "textColor": "#000000",
+        "backgroundColor": "#FFFFFF",
+        "borderLineColor": "#33bbb9"
+    },
+    "SendLocationCell": {
+        "textColor": "#787878",
+        "backgroundColor": "#FFFFFF"
+    },
+    "ListTemplateCell": {
+        "titleTextColor": "#040404",
+        "subTitleTextColor": "#b4b4b4",
+        "buttonTitleTextColor": "#33bbb9",
+        "borderLineColor": "#f0f0f0",
+        "separatorLineColor": "#f0f0f0"
+    },
+    "MenuCell": {
+        "titleTextColor": "#2e9e9c",
+        "subTitleTextColor": "#2e9e9c",
+        "separatorLineColor": "#e7e7e7"
+    },
+    "Conversation": {
+        "direction":"bottom"
+    }
+}

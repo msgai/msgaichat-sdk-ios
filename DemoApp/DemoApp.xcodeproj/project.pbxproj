@@ -12,6 +12,7 @@
 		132802BC2110444600836A60 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 132802BA2110444600836A60 /* Main.storyboard */; };
 		132802BE2110444700836A60 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 132802BD2110444700836A60 /* Assets.xcassets */; };
 		132802C12110444700836A60 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 132802BF2110444700836A60 /* LaunchScreen.storyboard */; };
+		13B0BD2F225CCD84009B3F2A /* MsgaiChatResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 13B0BD2E225CCD84009B3F2A /* MsgaiChatResources.bundle */; };
 		E0C2AB32F174EFF6FF0E6FC2 /* Pods_DemoApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20432446179A94EF2DF46E5E /* Pods_DemoApp.framework */; };
 /* End PBXBuildFile section */
 
@@ -23,6 +24,7 @@
 		132802BD2110444700836A60 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		132802C02110444700836A60 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		132802C22110444700836A60 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		13B0BD2E225CCD84009B3F2A /* MsgaiChatResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = MsgaiChatResources.bundle; path = ../../MsgaiChatResources.bundle; sourceTree = "<group>"; };
 		20432446179A94EF2DF46E5E /* Pods_DemoApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DemoApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		64D8E911B19F5B4EF680AD01 /* Pods-DemoApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DemoApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DemoApp/Pods-DemoApp.debug.xcconfig"; sourceTree = "<group>"; };
 		FB0FE54F5003FB53E5B581DA /* Pods-DemoApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DemoApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-DemoApp/Pods-DemoApp.release.xcconfig"; sourceTree = "<group>"; };
@@ -67,6 +69,7 @@
 				132802BD2110444700836A60 /* Assets.xcassets */,
 				132802BF2110444700836A60 /* LaunchScreen.storyboard */,
 				132802C22110444700836A60 /* Info.plist */,
+				13B0BD2E225CCD84009B3F2A /* MsgaiChatResources.bundle */,
 			);
 			path = DemoApp;
 			sourceTree = "<group>";
@@ -149,6 +152,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				132802C12110444700836A60 /* LaunchScreen.storyboard in Resources */,
+				13B0BD2F225CCD84009B3F2A /* MsgaiChatResources.bundle in Resources */,
 				132802BE2110444700836A60 /* Assets.xcassets in Resources */,
 				132802BC2110444600836A60 /* Main.storyboard in Resources */,
 			);

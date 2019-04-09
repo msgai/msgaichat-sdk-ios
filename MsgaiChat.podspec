@@ -8,7 +8,7 @@ Pod::Spec.new do |s|
   s.author    = "AI POMSG INC"
   s.platform     = :ios
   s.ios.deployment_target = "9.0"
-  s.swift_version = "4.1"
+  s.swift_version = "4.2"
   s.source   = {
 :git => 'https://github.com/msgai/msgaichat-sdk-ios.git'
     }

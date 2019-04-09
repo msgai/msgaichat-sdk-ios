@@ -1,0 +1,126 @@
+[
+    {
+        "language_code": "en",
+        "aboutTitle": "ABOUT #BrandName",
+        "aboutDetails": "I am here to help you with all your questions regarding your product. Following are few of the ways I can help",
+        "sections": [
+            {
+                "messages": [
+                    {
+                        "type": "DEEP_LINK",
+                        "label": "Open deeplinking",
+                        "payload": "myapp://param1?source=FAQ Screen"
+                    },
+                    {
+                        "type": "POST_BACK",
+                        "label": "Help",
+                        "payload": "help"
+                    },
+                    {
+                        "type": "POST_BACK",
+                        "label": "Option",
+                        "payload": "Option"
+                    }
+                ],
+                "header": "TITLE 1"
+            },
+            {
+                "messages": [
+                    {
+                        "type": "POST_BACK",
+                        "label": "Option 2_1",
+                        "payload": "Option 2 1"
+                    },
+                    {
+                        "type": "POST_BACK",
+                        "label": "Option 2_2",
+                        "payload": "Option 2 2"
+                    },
+                    {
+                        "type": "POST_BACK",
+                        "label": "Option 2_3",
+                        "payload": "Option 2 3"
+                    }
+                ],
+                "header": "TITLE 2"
+            },
+            {
+                "messages": [
+                    {
+                        "type": "POST_BACK",
+                        "label": "Info",
+                        "payload": "Info"
+                    },
+                    {
+                        "type": "POST_BACK",
+                        "label": "Option",
+                        "payload": "Options"
+                    }
+                ],
+                "header": "TITLE 3"
+            }
+        ]
+    },
+    {
+        "language_code": "fr",
+        "aboutTitle": "À PROPOS DE #Marque",
+        "aboutDetails": "Je suis ici pour vous aider avec toutes vos questions concernant votre produit. Voici quelques façons dont je peux aider",
+        "sections": [
+            {
+                "messages": [
+                    {
+                        "type": "DEEP_LINK",
+                        "label": "Ouverture profonde",
+                        "payload": "myapp://param1?source=FAQ Screen"
+                    },
+                    {
+                        "type": "POST_BACK",
+                        "label": "Aidez-moi",
+                        "payload": "Help"
+                    },
+                    {
+                        "type": "POST_BACK",
+                        "label": "Option",
+                        "payload": "Option"
+                    }
+                ],
+                "header": "TITRE 1"
+            },
+            {
+                "messages": [
+                    {
+                        "type": "POST_BACK",
+                        "label": "Option 2_1",
+                        "payload": "Option 2 1"
+                    },
+                    {
+                        "type": "POST_BACK",
+                        "label": "Option 2_2",
+                        "payload": "Option 2 2"
+                    },
+                    {
+                        "type": "POST_BACK",
+                        "label": "Option 2_3",
+                        "payload": "Option 2 3"
+                    }
+                ],
+                "header": "TITRE 2"
+            },
+            {
+                "messages": [
+                    {
+                        "type": "POST_BACK",
+                        "label": "Info",
+                        "payload": "Info"
+                    },
+                    {
+                        "type": "POST_BACK",
+                        "label": "Option",
+                        "payload": "Options"
+                    }
+                ],
+                "header": "TITRE 3"
+            }
+        ]
+    }
+]
